@@ -8,6 +8,9 @@
     <title>Ale D. Portfolio</title>
 </head>
 <body>
+    <div class="loading-screen">
+        <span class="loader"></span>
+    </div>
     <nav>
         <div class="personal-info">
             <div class="logo">
@@ -23,13 +26,13 @@
         </div>
         <ul class="links">
             <li>
-                <a href="#Projects">Projects</a>
+                <a href="#projects">Projects</a>
             </li>
             <li>
-                <a href="">About Me</a>
+                <a href="#about-me">About Me</a>
             </li>
             <li>
-                <a href="">Skills</a>
+                <a href="#skills">Skills</a>
             </li>
             <li>
                 <a href="">Blog</a>
@@ -76,8 +79,10 @@
         <div class="container-texts-header">
             <p>Hi, my name is</p>
             <h1 class="titulo1">Alejandro Doble <span>&</span></h1>
-            <h2 class="text-anim titulo2" id="text-anim"></h2>
-            <p class="about-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis dui magna penatibus at praesent convallis. Pulvinar sit eu nam nibh quis orci, leo. Varius sit velit libero, nulla. Adipiscing sit tristique fames velit vestibulum neque. Faucibus pellentesque amet vitae dui lectus vivamus.</p>
+            <div class="text-animation-container">
+                <h2 class="text-anim titulo2" id="text-anim"></h2>
+            </div>
+            <p class="about-me-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis dui magna penatibus at praesent convallis. Pulvinar sit eu nam nibh quis orci, leo. Varius sit velit libero, nulla. Adipiscing sit tristique fames velit vestibulum neque. Faucibus pellentesque amet vitae dui lectus vivamus.</p>
             <button>
                 <span>CONTACT</span>
             </button>
@@ -89,7 +94,7 @@
             <img src="./media/img/ale-16-colours.png" alt="">
         </div>
     </header>
-    <div class="projects">
+    <div class="projects" id="projects">
         <div class="project-container webs" id="web">
             <div class="trans-box">
                 <h2>WEBS</h2>
@@ -99,6 +104,87 @@
             <div class="trans-box">
                 <h2>DESIGNS</h2>
             </div>
+        </div>
+    </div>
+    <div class="about-me" id="about-me">
+        <h2>ABOUT ME</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor venenatis, a fringilla in elementum at. Lobortis adipiscing lorem mauris eget. Sed pharetra vestibulum rhoncus, mollis nulla aliquam. Purus etiam quis vehicula sed pretium, varius eget id.
+            Ut malesuada quis aliquam nam tellus fermentum augue. Dictum fringilla facilisis amet sagittis scelerisque amet morbi. Quis cursus scelerisque sed vulputate non, congue aenean pellentesque. Scelerisque adipiscing eget tortor, arcu adipiscing duis sit eleifend nec.
+        <a href="See more..."></a></p>
+        <svg class="circles-about-me" width="1530" height="1530" viewBox="0 0 1530 1530" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="889.346" y1="357.635" x2="1207.05" y2="654.701" stroke="white"/>
+            <path d="M323 941.933L640.709 1239" stroke="white"/>
+            <circle cx="765" cy="765" r="764.5" stroke="white"/>
+            <circle cx="772.158" cy="804.5" r="394" stroke="white"/>
+            <circle cx="772.658" cy="805" r="405.5" stroke="white"/>
+            <line x1="1148.66" y1="820.5" x2="1192.66" y2="820.5" stroke="white"/>
+            <line x1="350.658" y1="819.5" x2="394.658" y2="819.5" stroke="white"/>
+        </svg> 
+    </div>
+    <div class="skills" id="skills">
+        <h2>SKILLS</h2>
+        <hr>
+        <div class="container-skills">
+            <div class="photoshop skill">
+                <img src="./media/img/photoshop.png" alt="Logo Adobe Photoshop">
+                <p>Adobe Photoshop</p>
+            </div>
+            <div class="illustrator skill">
+                <img src="./media/img/illustrator.png" alt="Logo Adobe Illustrator">
+                <p>Adobe Illustrator</p>
+            </div>
+            <div class="indesign skill">
+                <img src="./media/img/indesing.png" alt="Logo Adobe InDesing">
+                <p>Adobe InDesign</p>
+            </div>
+            <div class="xd skill">
+                <img src="./media/img/xd.png" alt="Logo Adobe XD">
+                <p>Adobe Xd</p>
+            </div>
+            <div class="figma skill">
+                <img src="./media/img/figma.png" alt="Logo Figma">
+                <p>Figma</p>
+            </div>
+            <div class="html skill">
+                <img src="./media/img/html.png" alt="Html">
+                <p>HTML</p>
+            </div>
+            <div class="css skill">
+                <img src="./media/img/css.png" alt="Css">
+                <p>CSS</p>
+            </div>
+            <div class="js skill">
+                <img src="./media/img/js.png" alt="JavaScript">
+                <p>JavaScript</p>
+            </div>
+            <div class="php skill">
+                <img src="./media/img/php.png" alt="Php">
+                <p>PHP</p>
+            </div>
+            <div class="mysql skill">
+                <img src="./media/img/mysql.png" alt="MySql">
+                <p>MySql</p>
+            </div>
+            <div class="nodejs skill">
+                <img src="./media/img/nodejs.png" alt="NodeJS">
+                <p>NodeJS</p>
+            </div>
+            <div class="react skill">
+                <img src="./media/img/react.png" alt="React">
+                <p>React</p>
+            </div>
+        </div>
+    </div>
+    <div class="blog">
+        <h2>BLOG</h2>
+        <button>SEE BLOG</button>
+    </div>
+    <div class="contact">
+        <div class="container-contact">
+            <h2>CONTACT</h2>
+            <form action="" method="POST">
+                <label for=""></label>
+            </form>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

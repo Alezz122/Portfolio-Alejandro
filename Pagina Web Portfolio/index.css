@@ -13,7 +13,8 @@
     margin: 0;
     padding: 0;
     transition: 0.5s;
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
 }
 
 *::selection {
@@ -141,7 +142,7 @@ header .container-texts-header .titulo2 {
     font-weight: normal;
     height: 80px;
 }
-header .container-texts-header .about-me {
+header .container-texts-header .about-me-header {
     font-family: 'Open Sans';
     color: var(--blue-medium);
 }
@@ -193,6 +194,7 @@ header .container-texts-header .email a,
 header .container-texts-header .tel,
 header .container-texts-header .email {
     color: var(--blue-medium);
+    font-family: 'Bellefair';
 }
 header .illustration-alejandro {
     margin: auto;
@@ -210,34 +212,66 @@ header .illustration-alejandro img{
     width: 100%;
     padding: 0 0 0 165px;
     cursor: pointer;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .projects .webs {
-    background-image: url('./media/img/img-web.jpg');
     background-position: 255px -505px;
-    color: var(--cream);
 }
 
 .projects .webs .trans-box {
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
     padding: 25px;
-    border: 1px solid rgba(0, 0, 0, 0.184);
-    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.308);;
 }
 
-.projects .webs:hover {
+.projects .cursor {
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #000;
 }
 
 .projects .webs {
     border-bottom: 1px solid #000;
 }
 
+.project-container {
+    overflow: hidden;
+}
+
 .projects h2 {
     font-family: 'Bellefair';
     font-size: 184px;
     font-weight: normal;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    color: #000;
+    padding: 150px 700px;
+    display: inline-block !important;
 }
+
+.typed-cursor {
+    font-family: 'Bellefair';
+    color: #fff;
+    font-size: 64px;
+    font-weight: normal;
+    display: inline-block !important;
+}
+
+.text-animation-container {
+    display: flex;
+}
+
+.projects h2:hover {
+    letter-spacing: 22px;
+    color: transparent;
+    background-color: var(--blue-bg);
+    -webkit-text-stroke: 1px var(--cream);
+}
+
 
 .projects .project-container {
     height: 50vh;
@@ -245,3 +279,167 @@ header .illustration-alejandro img{
     justify-content: center;
     align-items: center;
 }
+
+.about-me {
+    background-color: var(--blue-bg);
+    color: var(--cream);
+    font-family: 'Bellefair';
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    padding: 0 0 0 165px;
+}
+
+.about-me h2 {
+    font-size: 110px;
+    font-weight: normal;
+}
+
+.about-me p {
+    width: 700px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.circles-about-me {
+    position: absolute;
+    width: 4000px;
+}
+
+/* SKILLS */
+
+.skills {
+    background-color: var(--cream);
+    color: var(--black);
+    font-family: 'Bellefair';
+    height: 100vh;
+    width: 100%;
+    padding: 0 0 0 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills h2 {
+    font-size: 110px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.skills hr {
+    width: 600px;
+    margin-bottom: 60px;
+}
+
+.skills .container-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    gap: 20px 100px;
+    font-size: 24px;
+}
+
+.skill img, .skill p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* BLOG */
+
+.blog {
+    background-color: var(--blue-bg);
+    color: var(--cream);
+    font-family: 'Bellefair';
+    height: 100vh;
+    width: 100%;
+    padding: 0 0 0 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog h2 {
+    font-weight: normal;
+    font-size: 110px;
+}
+
+.blog button {
+    width: 180px;
+    height: 60px;
+    font-family: 'Bellefair';
+    font-size: 24px;
+    background-color: var(--blue-light);
+    border: 0px solid #81fdff;
+    outline: none;
+}
+
+.blog button:hover {
+    background-color: #b7f1f2;
+    border: 1px solid #81fdff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* ANIMATION */
+
+.loading-screen {
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: var(--cream);
+    overflow: hidden;
+}
+
+.loader {
+    width: 150px;
+    height: 150px;
+    background-color: var(--blue-light);
+    border-radius: 50%;
+    box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,
+      0 5px 12px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+  }
+.loader:before,
+.loader:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 45%;
+    top: -40%;
+    background-color: #fff;
+    animation: wave 5s linear infinite;
+  }
+.loader:before {
+    border-radius: 30%;
+    background: rgba(255, 255, 255, 0.4);
+    animation: wave 5s linear infinite;
+  }
+@keyframes wave {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

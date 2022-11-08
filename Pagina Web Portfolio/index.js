@@ -1,3 +1,5 @@
+
+
 var textAnim = document.getElementById('text-anim');
 
 
@@ -12,15 +14,3 @@ var typed = new Typed('#text-anim', {
     startDelay: 200,
     loop: true
 });
-
-
-const web = document.getElementById('web');
-
-web.addEventListener('mousemove', (e) => {
-    console.log('a')
-    let x = (window.innerWidth/2- e.pageX) / 20;
-    let y = (window.innerWidth/2- e.pageY) / 10;
-
-    web.style.transform = "rotateY("+x+"deg) rotateX("+y+"deg)";
-})
-
