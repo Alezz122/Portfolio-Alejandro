@@ -1,0 +1,83 @@
+
+nav {
+    width: 165px;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--blue-dark);
+    color: var(--cream);
+    font-family: 'Bellefair';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+    box-shadow: 2px 0 25px rgba(41, 41, 41, 0.589);
+}
+
+nav .personal-info {
+    background-color: #162843;
+    padding: 40px 0;
+}
+
+nav .personal-info .name-nav {
+    font-family: 'Bellefair';
+    font-size: 18px;
+    color: var(--cream);
+    margin: auto;
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+nav .personal-info .logo {
+    text-align: center;
+}
+
+nav .personal-info .professions {
+    font-family: 'Open Sans';
+    color: #A8A8A8;
+    font-size: 12px;
+    text-align: center;
+}
+
+nav .links {
+    font-size: 24px;
+}
+
+nav .links li {
+    text-align: center;
+    overflow: hidden;
+    border-top: 1px solid var(--cream);
+    
+}
+nav .links li:last-child {
+    border-bottom: 1px solid var(--cream);
+}
+
+nav .links li a {
+    text-decoration: none;
+    color: var(--cream);
+    display: block;
+    padding: 10px 0;
+}
+
+nav .links li a:hover {
+    background-color: #162843;
+    letter-spacing: 4px;
+    transition: 0.5s;
+
+}
+
+nav .links li a {
+    text-decoration: none;
+    color: var(--cream);
+    display: block;
+    padding: 10px 0;
+}
+
+nav .social-media {
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+nav .social-media li {
+    display: inline-block;
+}

@@ -1,0 +1,68 @@
+@import url('./main.css');
+@import url('./navbar.css');
+
+body {
+    background-color: var(--cream);
+}
+
+header {
+    height: 35vh;
+    width: 100%;
+    padding: 0 0 0 165px;
+    font-family: 'Bellefair';
+}
+
+
+header h2 {
+    font-weight: normal;
+    font-size: 110px;
+    text-align: center;
+}
+
+header h2 span {
+    color: var(--red);
+    text-decoration: underline;
+}
+
+.container-projects {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 0 0 165px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.grid-item {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.5s;
+}
+
+.grid-item:hover::before{
+    background-color: rgba(0, 0, 0, 0.301);
+    transition: 0.5s;
+}
+
+.grid-item img {
+    width: 140%;
+    height: 140%;
+}
