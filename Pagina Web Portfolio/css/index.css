@@ -39,7 +39,7 @@ header .container-texts-header .about-me-header {
     color: var(--blue-medium);
 }
 
-header .container-texts-header button {
+header .container-texts-header .button-contact {
     width: 180px;
     height: 60px;
     font-family: 'Bellefair';
@@ -50,14 +50,19 @@ header .container-texts-header button {
     cursor: pointer;
     overflow: hidden;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
 }
 
-header .container-texts-header button:hover {
+header .container-texts-header .button-contact:hover {
     background-color: #b7f1f2;
     border: 1px solid #81fdff
 }
 
-header .container-texts-header button::before {
+header .container-texts-header .button-contact::before {
     width: 20px;
     height: 90px;
     top: -15px;
@@ -70,7 +75,7 @@ header .container-texts-header button::before {
     background-color: rgba(255, 255, 255, 0.426);
 }
 
-header .container-texts-header button:hover::before {
+header .container-texts-header .button-contact:hover::before {
     left: 200px;
     transition: 0.5s;
 }
@@ -159,7 +164,7 @@ header .illustration-alejandro img{
 .projects h2:hover {
     letter-spacing: 22px;
     color: transparent;
-    background-color: var(--blue-dark);
+    background-color: var(--blue-medium);
     -webkit-text-stroke: 1px var(--cream);
 }
 
@@ -185,7 +190,7 @@ header .illustration-alejandro img{
     flex-direction: column;
     gap: 35px;
     position: relative;
-    z-index: -1;
+    z-index: 2;
     overflow: hidden;
     padding: 0 0 0 165px;
 }
@@ -201,8 +206,13 @@ header .illustration-alejandro img{
     font-size: 20px;
 }
 
+.about-me a {
+    color: var(--blue-medium);
+}
+
 .circles-about-me {
     position: absolute;
+    z-index: -1;
     width: 4000px;
 }
 

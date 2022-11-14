@@ -10,7 +10,6 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     z-index: 3;
-    box-shadow: 2px 0 25px rgba(41, 41, 41, 0.589);
 }
 
 nav .personal-info {
