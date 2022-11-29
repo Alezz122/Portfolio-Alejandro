@@ -1,0 +1,72 @@
+@import url('./main.css');
+
+body {
+    background-color: var(--blue-bg);
+    font-family: 'Bellefair';
+    color: var(--cream);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+legend {
+    padding: 0 5px;
+    font-size: 24px;
+}
+
+form {
+    padding: 20px;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form input:nth-of-type(1){
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    display: block;
+    width: 300px;
+    background: none;
+    outline: none;
+    border: none;
+    color: var(--red);
+    border-bottom: 2px solid var(--cream);
+    font-size: 18px;
+    padding: 10px 0 0 0;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    background-color: var(--cream);
+    color: var(--black);
+    font-family: 'Bellefair';
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--red);
+    color: var(--cream);
+}
+
+.errors {
+    list-style: none;
+}
+
+.errors .error {
+    background-color: var(--red);
+    text-align: center;
+}
