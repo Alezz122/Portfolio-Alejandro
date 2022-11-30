@@ -33,6 +33,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     if($username == $username_db && $password == $password_db){
         echo 'Succesfull';
+        session_start();
+        $_SESSION['user'] = $username_db;
         header('Location: '. $url_admin);
     } else {
         array_push($errors, '<li class="error">Data invalid</li>');
