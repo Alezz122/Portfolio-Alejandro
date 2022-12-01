@@ -1,5 +1,7 @@
 <?php
+session_start();
 require("./admin/database.php");
+require("./templates/admin_login_template.php");
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $username = $_POST['username'];
@@ -33,7 +35,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     if($username == $username_db && $password == $password_db){
         echo 'Succesfull';
-        session_start();
         $_SESSION['user'] = $username_db;
         header('Location: '. $url_admin);
     } else {
@@ -41,5 +42,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
 }
 
-require("./templates/admin_login_template.php");
 ?>
