@@ -41,7 +41,7 @@ header h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding-top: 50px;
 }
 
 .main #searcher input[type="text"] {
@@ -148,6 +148,83 @@ header h1 {
     background: var(--blue-bg);
 }
 
+/* ADD ITEMS FORM */
+
+.container-add-items form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-add-items form .input-container label {
+    display: block;
+    color: var(--cream);
+    font-size: 28px;
+    font-family: 'Bellefair';
+    margin-bottom: 10px;
+}
+.container-add-items form .input-container input[type="text"] {
+    display: block;
+    width: 600px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    padding: 10px;
+    background: var(--blue-bg);
+    color: var(--cream);
+}
+.container-add-items form .input-container textarea {
+    width: 600px;
+    height: 200px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    background: var(--blue-bg);
+    color: var(--cream);
+} 
+
+.container-add-items form .input-container select {
+    width: 600px;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    padding: 10px;
+    background: var(--blue-bg);
+    color: var(--cream);
+}
+
+.container-add-items form .input-container option {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.container-add-items form .input-container input[type="file"] {
+    font-size: 16px;
+}
+
+.container-add-items form .input-container input[type="file"] {
+    font-size: 16px;
+}
+
+.container-add-items form button[type="submit"] {
+    font-size: 16px;
+    height: 40px;
+    background: var(--blue-light);
+    border: none;
+    font-family: 'Bellefair';
+}
+
+.container-add-items form button[type="submit"]:hover {
+    background-color: #b7f1f2;
+    border: 1px solid #81fdff;
+    cursor: pointer;
+}
+
 /* ANIMATIONS ADD IN JS */
 
 .item-on {
@@ -156,5 +233,5 @@ header h1 {
 }
 
 .container-item-add-on {
-    height: 400px !important;
+    height: 700px !important;
 }

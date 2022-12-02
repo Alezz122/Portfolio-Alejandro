@@ -21,7 +21,7 @@
     <div class="main">
         <form id="searcher" action="" method="GET">
             <div class="search">
-                <input type="text" name="search" id="search" placeholder="Search...">
+                <input type="text" name="search" id="search" placeholder="Search projects...">
             </div>
             <div class="secondary-buttons">
                 <select name="" id="">
@@ -48,11 +48,11 @@
             <form action="" method="GET">
                 <div class="input-container">
                     <label for="title">Title</label>
-                    <input type="text">
+                    <input type="text" name="title" id="title">
                 </div>
                 <div class="input-container">
                     <label for="description">Description</label>
-                    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                    <textarea name="description" id="description"></textarea>
                 </div>
                 <div class="input-container">
                     <label for="category">Category</label>
@@ -63,42 +63,25 @@
                     </select>
                 </div>
                 <div class="input-container">
+                    <label for="img">Image</label>
                     <input type="file" name="img" id="img">
                 </div>
                 <button type="submit">UPLOAD</button>
             </form>
         </div>
         <div class="container-items">
-            <div class="item" id="item">
-                <div class="description">
-                    <h5>Lorem ipsum dolor sit amet.</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis eum, maiores officiis aut facilis blanditiis quae laudantium cupiditate harum aperiam ipsa repellat deserunt corrupti nulla minus recusandae possimus a animi omnis consequatur? Molestias blanditiis libero quisquam maiores hic voluptate nobis, maxime perspiciatis quae officiis, id ratione voluptatibus exercitationem quas!</p>
+            <?php for($i=0;$i<$num_rows;$i++): ?>
+                <div class="item" id="item">
+                    <div class="description">
+                        <h5><?php print_r($title_db); ?></h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis eum, maiores officiis aut facilis blanditiis quae laudantium cupiditate harum aperiam ipsa repellat deserunt corrupti nulla minus recusandae possimus a animi omnis consequatur? Molestias blanditiis libero quisquam maiores hic voluptate nobis, maxime perspiciatis quae officiis, id ratione voluptatibus exercitationem quas!</p>
+                    </div>
+                    <div class="buttons">
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </div>
                 </div>
-                <div class="buttons">
-                    <button>Edit</button>
-                    <button>Delete</button>
-                </div>
-            </div>
-            <div class="item" id="item">
-                <div class="description">
-                    <h5>Lorem ipsum dolor sit amet.</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis eum, maiores officiis aut facilis blanditiis quae laudantium cupiditate harum aperiam ipsa repellat deserunt corrupti nulla minus recusandae possimus a animi omnis consequatur? Molestias blanditiis libero quisquam maiores hic voluptate nobis, maxime perspiciatis quae officiis, id ratione voluptatibus exercitationem quas!</p>
-                </div>
-                <div class="buttons">
-                    <button>Edit</button>
-                    <button>Delete</button>
-                </div>
-            </div>
-            <div class="item" id="item">
-                <div class="description">
-                    <h5>Lorem ipsum dolor sit amet.</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis eum, maiores officiis aut facilis blanditiis quae laudantium cupiditate harum aperiam ipsa repellat deserunt corrupti nulla minus recusandae possimus a animi omnis consequatur? Molestias blanditiis libero quisquam maiores hic voluptate nobis, maxime perspiciatis quae officiis, id ratione voluptatibus exercitationem quas!</p>
-                </div>
-                <div class="buttons">
-                    <button>Edit</button>
-                    <button>Delete</button>
-                </div>
-            </div>
+                <?php endfor; ?>
         </div>
     </div>
     <script src="./admin_panel.js"></script>
