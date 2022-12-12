@@ -23,6 +23,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     $result = $conn->query('SELECT * FROM admin');
     
+
     while ($row = mysqli_fetch_assoc($result)) {
         $username_db = $row["username"];
         $password_db = $row["password"];

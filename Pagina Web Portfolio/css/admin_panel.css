@@ -85,16 +85,6 @@ header h1 {
     color: var(--black);
 }
 
-.container-add-items {
-    background-color: var(--blue-dark);
-    height: 0px;
-    width: 1100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    overflow: hidden;
-}
 
 .main .container-items {
     margin-top: 25px;
@@ -122,12 +112,14 @@ header h1 {
 }
 
 .main .container-items .item:focus {
-    height: 200px !important;
+    height: 400px !important;
 }
 
 .main .container-items .item .description p {
     font-size: 16px;
     margin-top: 15px;
+    height: 125px;
+    overflow-y: auto;
 }
 
 .main .container-items .item .buttons {
@@ -149,21 +141,31 @@ header h1 {
 }
 
 /* ADD ITEMS FORM */
+.container-modify-items {
+    background-color: var(--blue-dark);
+    height: 0px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
 
-.container-add-items form {
+.container-modify-items form {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.container-add-items form .input-container label {
+.container-modify-items form .input-container label {
     display: block;
     color: var(--cream);
     font-size: 28px;
     font-family: 'Bellefair';
     margin-bottom: 10px;
 }
-.container-add-items form .input-container input[type="text"] {
+.container-modify-items form .input-container input[type="text"] {
     display: block;
     width: 600px;
     height: 50px;
@@ -175,7 +177,7 @@ header h1 {
     background: var(--blue-bg);
     color: var(--cream);
 }
-.container-add-items form .input-container textarea {
+.container-modify-items form .input-container textarea {
     width: 600px;
     height: 200px;
     outline: none;
@@ -187,7 +189,7 @@ header h1 {
     color: var(--cream);
 } 
 
-.container-add-items form .input-container select {
+.container-modify-items form .input-container select {
     width: 600px;
     outline: none;
     border: none;
@@ -198,20 +200,20 @@ header h1 {
     color: var(--cream);
 }
 
-.container-add-items form .input-container option {
+.container-modify-items form .input-container option {
     font-size: 16px;
     padding: 10px;
 }
 
-.container-add-items form .input-container input[type="file"] {
+.container-modify-items form .input-container input[type="file"] {
     font-size: 16px;
 }
 
-.container-add-items form .input-container input[type="file"] {
+.container-modify-items form .input-container input[type="file"] {
     font-size: 16px;
 }
 
-.container-add-items form button[type="submit"] {
+.container-modify-items form button[type="submit"] {
     font-size: 16px;
     height: 40px;
     background: var(--blue-light);
@@ -219,7 +221,7 @@ header h1 {
     font-family: 'Bellefair';
 }
 
-.container-add-items form button[type="submit"]:hover {
+.container-modify-items form button[type="submit"]:hover {
     background-color: #b7f1f2;
     border: 1px solid #81fdff;
     cursor: pointer;
@@ -228,7 +230,7 @@ header h1 {
 /* ANIMATIONS ADD IN JS */
 
 .item-on {
-    height: 200px !important;
+    height: 250px !important;
     background-color: var(--blue-medium) !important;
 }
 

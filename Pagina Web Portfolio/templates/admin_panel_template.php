@@ -44,7 +44,7 @@
                 </button>
             </div>
         </form>
-        <div class="container-add-items" id="container-add-items">
+        <div class="container-modify-items" id="container-add-items">
             <form action="" method="GET">
                 <div class="input-container">
                     <label for="title">Title</label>
@@ -69,19 +69,45 @@
                 <button type="submit">UPLOAD</button>
             </form>
         </div>
+        <div class="container-modify-items" id="container-edit-items">
+            <form action="admin_edit.php" method="GET">
+                <div class="input-container">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title-input">
+                </div>
+                <div class="input-container">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description-input"></textarea>
+                </div>
+                <div class="input-container">
+                    <label for="category">Category</label>
+                    <select name="category" id="category-input">
+                        <option value="category">Category</option>
+                        <option value="design">Design</option>
+                        <option value="web">Web</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <label for="img">Image</label>
+                    <input type="file" name="img" id="img-input">
+                </div>
+                <input type="hidden" name="id-item" id="id-item" value="item1">
+                <button type="submit" id="edit-submit">EDIT</button>
+            </form>
+        </div>
         <div class="container-items">
-            <?php for($i=0;$i<$num_rows;$i++): ?>
-                <div class="item" id="item">
+            <?php foreach ($result as $indice => $data): ?>
+                <div class="item">
                     <div class="description">
-                        <h5><?php print_r($title_db); ?></h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis eum, maiores officiis aut facilis blanditiis quae laudantium cupiditate harum aperiam ipsa repellat deserunt corrupti nulla minus recusandae possimus a animi omnis consequatur? Molestias blanditiis libero quisquam maiores hic voluptate nobis, maxime perspiciatis quae officiis, id ratione voluptatibus exercitationem quas!</p>
+                        <h5><?php print_r($data['title']); ?></h5>
+                        <p><?php print_r($data['descrip']); ?></p>
                     </div>
                     <div class="buttons">
-                        <button>Edit</button>
-                        <button>Delete</button>
+                        <button class="edit-btn" id="<?php print_r($data['id']); ?>">Edit</button>
+                        <button class="delete-btn" id="<?php print_r($data['id']); ?>">Delete</button>
                     </div>
                 </div>
-                <?php endfor; ?>
+            <?php endforeach; ?>
         </div>
     </div>
     <script src="./admin_panel.js"></script>

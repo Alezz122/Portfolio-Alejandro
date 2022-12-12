@@ -15,15 +15,20 @@ if(isset($_SESSION['user'])){
             $descrip = $_GET['description'];
             $category = $_GET['category'];
             $img = $_GET['img'];
-    
-    
+            
+            // ERRORS
+
+            $errors = array();
+            $someError = false;
+
             $sql = "INSERT INTO works (title, descrip, category, img) VALUES ('$title', '$descrip', '$category','$img')";
-        
+            
             if (mysqli_query($conn, $sql)) {
                 echo "New record created successfully";
             } else {
                 echo "Error: " . $sql . "<br>" . mysqli_error($conn);
             }
+
         }
 
         // SQL WORKS
@@ -33,6 +38,7 @@ if(isset($_SESSION['user'])){
     
     
         while ($row = $result->fetch_row()) {
+            $id = $row[0];
             $title_db = $row[1];
             $descrip = $row[2];
         }
