@@ -28,11 +28,17 @@ descriptionInput = document.getElementById('description-input'),
 categoryInput = document.getElementById('category-input'),
 imgInput = document.getElementById('img-input')
 
-
+// const worksItems = Array.from(document.getElementsByClassName('item'));
 
 editBtns.forEach(element => {
     element.addEventListener('click', (e) => {
-        e.preventDefault();
+
+        // worksItems.forEach(work => {
+        //     console.log(work.dataset.item == element.id)
+        //     if(work.dataset.item == element.id){
+        //         work.focus();
+        //     }
+        // })
 
         let id = element.id;
 
@@ -74,7 +80,3 @@ deleteBtns.forEach(element => {
         
     })
 })
-
-
-
-const editSubmit = document.getElementById('edit-submit');

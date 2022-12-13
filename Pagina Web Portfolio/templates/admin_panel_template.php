@@ -18,6 +18,14 @@
         </div>
         <h1>Panel Administration</h1>
     </header>
+    <ul class="data">
+        <?php
+            for ($i=0;$i<count($data_log);$i++){
+                echo $data_log[$i];
+            };
+        ?>
+    </ul>
+    </div>
     <div class="main">
         <form id="searcher" action="" method="GET">
             <div class="search">
@@ -45,7 +53,7 @@
             </div>
         </form>
         <div class="container-modify-items" id="container-add-items">
-            <form action="" method="GET">
+            <form action="" method="GET" id="form-add-items">
                 <div class="input-container">
                     <label for="title">Title</label>
                     <input type="text" name="title" id="title">
@@ -66,7 +74,7 @@
                     <label for="img">Image</label>
                     <input type="file" name="img" id="img">
                 </div>
-                <button type="submit">UPLOAD</button>
+                <button type="submit" id="upload-btn">UPLOAD</button>
             </form>
         </div>
         <div class="container-modify-items" id="container-edit-items">
@@ -97,7 +105,7 @@
         </div>
         <div class="container-items">
             <?php foreach ($result as $indice => $data): ?>
-                <div class="item">
+                <div class="item" data-item="<?php print_r($data['id']); ?>">
                     <div class="description">
                         <h5><?php print_r($data['title']); ?></h5>
                         <p><?php print_r($data['descrip']); ?></p>

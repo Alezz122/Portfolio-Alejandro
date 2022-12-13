@@ -36,12 +36,20 @@ header h1 {
     margin-left: 20px;
 }
 
+.data {
+    background-color: #81ff81;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding: 100px 0;
 }
 
 .main #searcher input[type="text"] {
@@ -113,6 +121,7 @@ header h1 {
 
 .main .container-items .item:focus {
     height: 400px !important;
+    background-color: var(--blue-medium);
 }
 
 .main .container-items .item .description p {
