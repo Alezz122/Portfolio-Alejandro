@@ -4,19 +4,22 @@ require('./admin/database.php');
 
 
 if(isset($_SESSION['user'])){
-
+    
     if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_admin['db_pass'], $db_admin['db_name'])){
         $data_log = array();
         array_push($data_log, "<li>DataBase OK</li>");
-
+        
         // FORM CHECK
         if(isset($_GET) && !empty($_GET)){
-    
+            
+            print_r($_FILES);
+            echo 'hola';
             $title = $_GET['title'];
             $descrip = $_GET['description'];
             $category = $_GET['category'];
             $img = $_GET['img'];
             
+
             // ERRORS
 
             $errors = array();

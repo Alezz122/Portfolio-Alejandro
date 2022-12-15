@@ -28,7 +28,6 @@ header h2 span {
 
 .container-projects {
     width: 100%;
-    height: 2000px;
     max-width: 100%;
     padding: 50px 0 50px 165px;
     background-color: var(--blue-bg);
@@ -39,8 +38,9 @@ header h2 span {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    width: 100%;
+    width: 80%;
     padding: 0 20px;
+    margin: auto;
 }
 
 .grid a {
@@ -49,30 +49,39 @@ header h2 span {
 
 .grid-item {
     width: 400px;
+    height: 600px;
     overflow: hidden;
     font-family: 'Open Sans';
     color: var(--black);
-    text-decoration: none;
-}
-
-.grid-item .img-container {
-    width: 400px;
-    height: 600px;
     background-size: cover;
     background-image: var(--i);
 }
 
 .grid-item .item-data {
-    width: 400px;
-    position: absolute;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.950);
     color: var(--cream);
-    bottom: 0;
+    border: 2px solid #fff;
+    bottom: -60px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 25px;
     opacity: 0;
+}
+
+.grid-item .item-data:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.grid-item .item-data:not(:hover) {
+    transition: 0.3s;
+}
+
+.grid-item .item-data button:hover {
+    background-color: #fff;
+    color: #000;
 }
 
 .grid-item .item-data h2 {
