@@ -59,9 +59,9 @@ header h2 span {
 
 .grid-item .item-data {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.950);
+    background-color: #03142bf1;
     color: var(--cream);
-    border: 2px solid #fff;
+    border: 2px solid var(--cream);
     bottom: -60px;
     padding: 20px;
     display: flex;
@@ -80,8 +80,8 @@ header h2 span {
 }
 
 .grid-item .item-data button:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--cream);
+    color: var(--blue-bg);
 }
 
 .grid-item .item-data h2 {

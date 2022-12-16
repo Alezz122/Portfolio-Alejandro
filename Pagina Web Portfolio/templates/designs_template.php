@@ -80,10 +80,7 @@
     <div class="container-projects">
         <div class="grid">
         <?php foreach ($result as $indice => $data): ?>
-
-            <?php echo "<img src='./media/img/".$data['img']."' >"; ?>
-            
-            <div class="grid-item" style="--i:url(../media/img/SNAKE-02.png)">
+            <div class="grid-item" style="--i:url(<?php echo '../media/img/'.$data['img']; ?>)">
                 <div class="item-data">
                     <h2><?php echo $data['title'] ?></h2>
                     <p><?php echo $data['descrip'] ?></p>
