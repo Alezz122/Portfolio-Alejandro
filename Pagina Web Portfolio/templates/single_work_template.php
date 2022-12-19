@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./media/img/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="./css/webs.css">
+    <link rel="stylesheet" href="./css/single.css">
     <title>Designs</title>
 </head>
 <body>
@@ -76,26 +76,14 @@
         </ul>
     </nav>
     <header>
-        <h2>My <span>designs</span> works</h2>
+        <h2><?php echo $title_db; ?></h2>
     </header>
-    <div class="container-projects">
-        <div class="grid">
-        <?php foreach ($result as $indice => $data): ?>
-            <div class="grid-item">
-                <div class="item-data">
-                    <div class="img-container">
-                        <img src="data:image/png;base64, <?php echo base64_encode($data['img']); ?>">
-                    </div>
-                    <div class="content">
-                        <div class="text">
-                            <h2><?php echo $data['title'] ?></h2>
-                            <p><?php echo $data['descrip'] ?></p>
-                        </div>
-                        <a href="./single_work.php?id=<?php echo $data['id']; ?>"><span>VIEW</span></a>
-                    </div>
-                </div>
+    <div class="main">
+        <div class="item-content">
+            <img src="data:image/png;base64, <?php echo base64_encode($img); ?>">
+            <div class="text">
+                <p><?php echo $descrip; ?></p>
             </div>
-        <?php endforeach; ?>
         </div>
     </div>
     <script src="./js/designs.js"></script>

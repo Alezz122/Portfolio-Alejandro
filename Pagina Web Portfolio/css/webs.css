@@ -1,6 +1,7 @@
 @import url('./main.css');
 @import url('./navbar.css');
 
+
 body {
     background-color: var(--cream);
 }
@@ -57,17 +58,37 @@ header h2 span {
     background-image: var(--i);
 }
 
+.grid-item .img-container {
+    height: 250px;
+    overflow: hidden;
+}
+
+.grid-item .img-container img {
+    width: 100%;
+    transform: scale(1.1);
+}
 .grid-item .item-data {
     height: 100%;
     background-color: #03142bf1;
     color: var(--cream);
     border: 2px solid var(--cream);
     bottom: -60px;
+}
+
+.grid-item .content {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+
+}
+.grid-item .item-data .text {
+    display: flex;
+    flex-direction: column;
     gap: 25px;
-    opacity: 0;
+    max-height: 230px;
+    overflow: hidden;
 }
 
 .grid-item .item-data:hover {
@@ -79,10 +100,6 @@ header h2 span {
     transition: 0.3s;
 }
 
-.grid-item .item-data button:hover {
-    background-color: var(--cream);
-    color: var(--blue-bg);
-}
 
 .grid-item .item-data h2 {
     font-weight: 800;
@@ -92,7 +109,13 @@ header h2 span {
     font-size: 14px;
 }
 
-.grid-item .item-data button {
+.grid-item .item-data a:hover {
+    background-color: var(--cream);
+    color: var(--blue-bg);
+    transition: 0.1s;
+}
+
+.grid-item .item-data a {
     width: 100px;
     height: 50px;
     background: none;
@@ -101,6 +124,9 @@ header h2 span {
     color: var(--cream);
     cursor: pointer;
     font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

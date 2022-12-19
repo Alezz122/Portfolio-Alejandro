@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./media/img/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./css/admin_panel.css">
     <title>Admin Panel</title>
 </head>
@@ -53,7 +54,7 @@
             </div>
         </form>
         <div class="container-modify-items" id="container-add-items">
-            <form action="" method="GET" id="form-add-items">
+            <form action="admin_item_add.php" method="POST" id="form-add-items" enctype="multipart/form-data">
                 <div class="input-container">
                     <label for="title">Title</label>
                     <input type="text" name="title" id="title">
@@ -74,7 +75,7 @@
                     <label for="img">Image</label>
                     <input type="file" name="img" id="img">
                 </div>
-                <button type="submit" id="upload-btn">UPLOAD</button>
+                <button type="submit" id="upload-btn" name="upload">UPLOAD</button>
             </form>
         </div>
         <div class="container-modify-items" id="container-edit-items">

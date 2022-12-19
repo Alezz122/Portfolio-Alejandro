@@ -9,33 +9,6 @@ if(isset($_SESSION['user'])){
         $data_log = array();
         array_push($data_log, "<li>DataBase OK</li>");
         
-        // FORM CHECK
-        if(isset($_GET) && !empty($_GET)){
-            
-            print_r($_FILES);
-            echo 'hola';
-            $title = $_GET['title'];
-            $descrip = $_GET['description'];
-            $category = $_GET['category'];
-            $img = $_GET['img'];
-            
-
-            // ERRORS
-
-            $errors = array();
-            $someError = false;
-
-            $sql = "INSERT INTO works (title, descrip, category, img) VALUES ('$title', '$descrip', '$category','$img')";
-            
-            if (mysqli_query($conn, $sql)) {
-                array_push($data_log, "<li>New record created successfully</li>");
-                header('Location: ./admin_panel.php');
-            } else {
-                echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-            }
-
-        }
-
         // SQL WORKS
         $sql = "SELECT * FROM works";
         $result = mysqli_query($conn, $sql);

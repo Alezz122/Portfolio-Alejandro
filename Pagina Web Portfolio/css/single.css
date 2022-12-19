@@ -1,0 +1,58 @@
+@import url('./main.css');
+@import url('./navbar.css');
+
+body {
+    background-color: var(--cream);
+}
+
+header {
+    height: 35vh;
+    width: 100%;
+    padding: 0 0 0 165px;
+    font-family: 'Bellefair';
+    display: flex;
+}
+
+
+header h2 {
+    font-weight: normal;
+    font-size: 110px;
+    text-align: center;
+    margin: auto
+}
+
+header h2 span {
+    color: var(--blue-dark);
+    text-decoration: underline;
+}
+
+.main {
+    height: 100vh;
+    background-color: var(--blue-bg);
+    color: var(--cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.item-content img {
+    width: 30%;
+    max-width: 400px;
+}
+
+.item-content .text {
+    width: 30%;
+}
+
+.item-content .text p {
+    font-family: 'Open Sans';
+}
