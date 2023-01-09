@@ -79,20 +79,15 @@
     <div class="container-projects">
         <div class="grid">
         <?php foreach ($result as $indice => $data): ?>
-            <div class="grid-item">
-                <div class="item-data">
-                    <div class="img-container">
-                        <img src="data:image/png;base64, <?php echo base64_encode($data['img']); ?>">
-                    </div>
-                    <div class="content">
-                        <div class="text">
-                            <h2><?php echo $data['title'] ?></h2>
-                            <p><?php echo $data['descrip'] ?></p>
+            <a href="./single_work.php?id=<?php echo $data['id']; ?>">
+                <div class="grid-item">
+                    <div class="item-data">
+                        <div class="img-container">
+                            <img src="data:image/png;base64, <?php echo base64_encode($data['img']); ?>">
                         </div>
-                        <a href="./single_work.php?id=<?php echo $data['id']; ?>"><span>VIEW</span></a>
                     </div>
                 </div>
-            </div>
+            </a>
         <?php endforeach; ?>
         </div>
     </div>

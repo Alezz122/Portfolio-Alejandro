@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./media/img/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="./css/webs.css">
-    <title>Designs</title>
+    <link rel="stylesheet" href="./css/about_me.css">
+    <title>About Me</title>
 </head>
 <body>
     <nav>
@@ -76,27 +76,16 @@
         </ul>
     </nav>
     <header>
-        <h2>My <span>designs</span> works</h2>
+        <h2>About Me</h2>
     </header>
-    <div class="container-projects">
-        <form action="" method="GET">
-            <input type="text" placeholder="Search designs..." name="search">
-            <input type="image" alt="Submit" src="./media/img/buscar.png" width="55px" height="55px" value="Search">
-        </form>
-        <div class="grid">
-        <?php foreach ($result as $indice => $data): ?>
-            <a href="./single_work.php?id=<?php echo $data['id']; ?>">
-                <div class="grid-item">
-                    <div class="item-data">
-                        <div class="img-container">
-                            <img id="imageItem" src="data:image/png;base64, <?php echo base64_encode($data['img']); ?>">
-                        </div>
-                    </div>
-                </div>
-            </a>
-        <?php endforeach; ?>
+    <div class="main">
+        <div class="data-about-me">
+            <img src="./media/img/profile-picture.jpeg" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor venenatis, a fringilla in elementum at. Lobortis adipiscing lorem mauris eget. Sed pharetra vestibulum rhoncus, mollis nulla aliquam. Purus etiam quis vehicula sed pretium, varius eget id. Ut malesuada quis aliquam nam tellus fermentum augue. Dictum fringilla facilisis amet sagittis scelerisque amet morbi. Quis cursus scelerisque sed vulputate non, congue aenean pellentesque. Scelerisque adipiscing eget tortor, arcu adipiscing duis sit eleifend nec. <br /> <br />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor venenatis, a fringilla in elementum at. Lobortis adipiscing lorem mauris eget. Sed pharetra vestibulum rhoncus, mollis nulla aliquam. Purus etiam quis vehicula sed pretium, varius eget id. Ut malesuada quis aliquam nam tellus fermentum augue. Dictum fringilla facilisis amet sagittis scelerisque amet morbi. Quis cursus scelerisque sed vulputate non, congue aenean pellentesque. Scelerisque adipiscing eget tortor, arcu adipiscing duis sit eleifend nec.
+            </p>
+            <button>VIEW CV</button>
         </div>
     </div>
-    <script src="./js/designs.js"></script>
 </body>
-</html>

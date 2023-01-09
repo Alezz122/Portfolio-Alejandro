@@ -79,13 +79,25 @@
         <h2><?php echo $title_db; ?></h2>
     </header>
     <div class="main">
+        <div id="lightBoxImageContainer">
+            <button id="close-button">X</button>
+            <div id="img-container">
+                <img id="imageLightBox" src="data:image/png;base64, <?php echo base64_encode($img); ?>">
+            </div>
+        </div>
         <div class="item-content">
-            <img src="data:image/png;base64, <?php echo base64_encode($img); ?>">
+            <img id="imageItem" src="data:image/png;base64, <?php echo base64_encode($img); ?>">
             <div class="text">
                 <p><?php echo $descrip; ?></p>
             </div>
+            <?php if($category == "web"): ?>
+            <div class="buttons">
+                <a href="">GITHUB</a>
+                <a href="">VIEW</a>
+            </div>
+            <?php endif; ?>
         </div>
     </div>
-    <script src="./js/designs.js"></script>
+    <script src="./js/single.js"></script>
 </body>
 </html>

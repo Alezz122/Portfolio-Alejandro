@@ -72,6 +72,18 @@
                     </select>
                 </div>
                 <div class="input-container">
+                    <label for="url_github">GitHub URL</label>
+                    <input type="url" name="url_github" id="url_github">
+                </div>
+                <div class="input-container">
+                    <label for="url_github">Project URL</label>
+                    <input type="url" name="url_project" id="url_project">
+                </div>
+                <div class="input-container">
+                    <label for="keywords">Keywords</label>
+                    <input type="url" name="keywords" id="keywords">
+                </div>
+                <div class="input-container">
                     <label for="img">Image</label>
                     <input type="file" name="img" id="img">
                 </div>
@@ -79,7 +91,7 @@
             </form>
         </div>
         <div class="container-modify-items" id="container-edit-items">
-            <form action="admin_edit.php" method="GET">
+            <form action="admin_edit.php" method="POST" id="form-edit-items" enctype="multipart/form-data">
                 <div class="input-container">
                     <label for="title">Title</label>
                     <input type="text" name="title" id="title-input">
@@ -97,11 +109,23 @@
                     </select>
                 </div>
                 <div class="input-container">
+                    <label for="url_github">GitHub URL</label>
+                    <input type="url" name="url_github" id="url_github">
+                </div>
+                <div class="input-container">
+                    <label for="url_github">Project URL</label>
+                    <input type="url" name="url_project" id="url_project">
+                </div>
+                <div class="input-container">
+                    <label for="keywords">Keywords</label>
+                    <input type="url" name="keywords" id="keywords">
+                </div>
+                <div class="input-container">
                     <label for="img">Image</label>
-                    <input type="file" name="img" id="img-input">
+                    <input type="file" name="img" id="img-edit">
                 </div>
                 <input type="hidden" name="id-item" id="id-item" value="item1">
-                <button type="submit" id="edit-submit">EDIT</button>
+                <button type="submit" id="edit-submit" name="upload">EDIT</button>
             </form>
         </div>
         <div class="container-items">

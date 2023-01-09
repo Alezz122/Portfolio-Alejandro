@@ -31,7 +31,7 @@ imgInput = document.getElementById('img-input')
 // const worksItems = Array.from(document.getElementsByClassName('item'));
 
 editBtns.forEach(element => {
-    element.addEventListener('click', (e) => {
+    element.addEventListener('click', () => {
 
         // worksItems.forEach(work => {
         //     console.log(work.dataset.item == element.id)
@@ -47,13 +47,14 @@ editBtns.forEach(element => {
         let xhttp = new XMLHttpRequest();
         xhttp.open('GET', './admin_call_item_edit.php?id=' + id);
         xhttp.onload = () => {
+
+            console.log(xhttp.responseText)
             const data = JSON.parse(xhttp.responseText);
 
             idInput.value = data[0]['id'];
             titleInput.value = data[0]['title'];
             descriptionInput.value = data[0]['descrip'];
             categoryInput.value = data[0]['category'];
-            imgInput.value = data[0]['img'];
 
         }
 

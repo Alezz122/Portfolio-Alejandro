@@ -1,11 +1,12 @@
 <?php
 require('./admin/database.php');
-session_start();
 
 if(isset($_SESSION['user'])){
     if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_admin['db_pass'], $db_admin['db_name'])){
         if(isset($_POST) && !empty($_POST)){
             if(isset($_REQUEST['upload'])){
+
+
                 if(isset($_FILES['img']['name'])){
                     $data_log = array();
                     $fileType = $_FILES['img']['type'];
@@ -31,7 +32,6 @@ if(isset($_SESSION['user'])){
                     
                     if(mysqli_query($conn, $sql)) {
                         array_push($data_log, "<li>New record created successfully</li>");
-                        header('Location: ./admin_panel.php');
                     } else {
                         echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                     }

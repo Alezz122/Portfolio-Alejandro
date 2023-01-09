@@ -3,51 +3,62 @@ require('./admin/database.php');
 
 
 if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_admin['db_pass'], $db_admin['db_name'])){
-    echo 'Database OK';
+    if(isset($_POST) && !empty($_POST)){
+        if(isset($_REQUEST['upload'])){
+            if(isset($_FILES['img']['name'])){
 
-    // FORM CHECK
-    if(isset($_GET) && !empty($_GET)){
+                $data_log = array();
+                $fileType = $_FILES['img']['type'];
+                $fileName = $_FILES['img']['name'];
+                $fileSize = $_FILES['img']['size'];
+                $imgUploaded = fopen($_FILES['img']['tmp_name'], 'r');
+                $binariesImg = fread($imgUploaded, $fileSize);
+                $binariesImg = mysqli_escape_string($conn, $binariesImg);
 
-        $id = $_GET['id-item'];
-        $title = $_GET['title'];
-        $descrip = $_GET['description'];
-        $category = $_GET['category'];
-        $img = $_GET['img'];
+                $id = $_POST['id-item'];
+                $title = $_POST['title'];
+                $descrip = $_POST['description'];
+                $category = $_POST['category'];
+                
+                // ERRORS
         
-        // ERRORS
-
-        $errors = array();
-        $someError = false;
-
-        if(empty($title)){
-            array_push($errors, '<li class="error">Title empty</li>');
-            $someError = true;
-        }
-        if(empty($descrip)){
-            array_push($errors, '<li class="error">Description empty</li>');
-            $someError = true;
-        }
-        if(empty($category)){
-            array_push($errors, '<li class="error">Category empty</li>');
-            $someError = true;
-        }
-        if(empty($img)){
-            array_push($errors, '<li class="error">IMG empty</li>');
-            $someError = true;
-        }
-
-        // UPDATE DB WITH NEW DATA
-
-        $sql = "UPDATE works SET title = '$title', descrip = '$descrip', category = '$category', img = '$img' WHERE id = '$id'";
+                $errors = array();
+                $someError = false;
         
-        if (mysqli_query($conn, $sql)) {
-            echo "Update record successfully";
-        } else {
-            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-        }
+                if(empty($title)){
+                    array_push($errors, '<li class="error">Title empty</li>');
+                    $someError = true;
+                }
+                if(empty($descrip)){
+                    array_push($errors, '<li class="error">Description empty</li>');
+                    $someError = true;
+                }
+                if(empty($category)){
+                    array_push($errors, '<li class="error">Category empty</li>');
+                    $someError = true;
+                }
+                if(empty($img)){
+                    array_push($errors, '<li class="error">IMG empty</li>');
+                    $someError = true;
+                }
+        
+                // UPDATE DB WITH NEW DATA
+        
+                $sql = "UPDATE works SET title = '$title', descrip = '$descrip', category = '$category', img = '$binariesImg' WHERE id = '$id'";
+                
+                
+                if (mysqli_query($conn, $sql)) {
+                    echo "Update record successfully";
+                    header('Location:' . './admin_panel.php');
+                } else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                }
+            };
+        };
+
     }
 
-    header('Location: ./admin_panel.php');
+    // header('Location: ./admin_panel.php');
 }else {
     echo 'Database ERROR';
 }

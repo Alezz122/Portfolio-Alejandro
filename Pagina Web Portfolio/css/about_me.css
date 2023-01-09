@@ -1,0 +1,71 @@
+@import url('./main.css');
+@import url('./navbar.css');
+
+body {
+    background-color: var(--blue-bg);
+}
+
+header {
+    height: 35vh;
+    width: 100%;
+    padding: 0 0 0 165px;
+    font-family: 'Bellefair';
+    display: flex;
+    background-color: var(--cream);
+}
+
+
+header h2 {
+    font-weight: normal;
+    font-size: 110px;
+    text-align: center;
+    margin: auto
+}
+
+header h2 span {
+    color: var(--blue-dark);
+    text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 0 50px 165px;
+    background-color: var(--blue-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.main .data-about-me {
+    display: flex;
+    gap: 100px;
+}
+
+.main button {
+    width: 150px;
+    height: 60px;
+    background-color: var(--blue-light);
+    font-family: 'Bellefair';
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.main button:hover {
+    background-color: #b7f1f2;
+    border: 1px solid #81fdff
+}
+
+.main img {
+    height: 800px;
+}
+
+.main p {
+    width: 600px;
+    color: var(--cream);
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+

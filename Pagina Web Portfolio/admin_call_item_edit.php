@@ -17,11 +17,12 @@ if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_a
             'id' => $data['id'],
             'title' => $data['title'],
             'descrip' => $data['descrip'],
-            'category' => $data['category'],
-            'img' => $data['img'] 
+            'category' => $data['category']
         ]);
     }
     
+    
+
     echo json_encode($response);
 
 

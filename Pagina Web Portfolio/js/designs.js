@@ -1,14 +1,12 @@
-// const worksItems = Array.from(document.getElementsByClassName('grid-item')),
-// itemsData = Array.from(document.getElementsByClassName('item-data'));
+// const titleWork = document.getElementsByClassName('title-work'),
+// works = Array.from(document.getElementsByClassName('grid-item'));
 
-// worksItems.forEach(item => {
-//     item.addEventListener('mouseover', () => {
-//         item.childNodes[3].classList.add('over-data');
+
+
+// works.forEach(work => {
+//     work.addEventListener('mouseover', () => {
+//         work.childNodes[1].childNodes[3].childNodes[1].childNodes[1].classList.add('show-text')
 //     })
 // });
 
-// worksItems.forEach(item => {
-//     item.addEventListener('mouseout', () => {
-//         item.childNodes[3].classList.remove('over-data');
-//     })
-// });
+
