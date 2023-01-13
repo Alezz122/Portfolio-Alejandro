@@ -81,7 +81,7 @@
                 </div>
                 <div class="input-container">
                     <label for="keywords">Keywords</label>
-                    <input type="url" name="keywords" id="keywords">
+                    <input type="text" name="keywords" id="keywords">
                 </div>
                 <div class="input-container">
                     <label for="img">Image</label>

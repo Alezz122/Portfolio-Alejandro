@@ -1,5 +1,3 @@
-
-
 var textAnim = document.getElementById('text-anim');
 
 

@@ -92,8 +92,8 @@
             </div>
             <?php if($category == "web"): ?>
             <div class="buttons">
-                <a href="">GITHUB</a>
-                <a href="">VIEW</a>
+                <a href="<?php echo $url_github; ?>">GITHUB</a>
+                <a href="<?php echo $url_project; ?>">VIEW</a>
             </div>
             <?php endif; ?>
         </div>

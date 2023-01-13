@@ -14,7 +14,7 @@ if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_a
         
         if(isset($search)){
             
-            $sql = "SELECT * FROM works WHERE category = 'design' AND title LIKE '%$search%'";
+            $sql = "SELECT * FROM works WHERE category = 'design' AND title LIKE '%$search%' OR keywords LIKE '%$search%'";
             $result = mysqli_query($conn, $sql);
             
             

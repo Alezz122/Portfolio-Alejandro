@@ -16,6 +16,8 @@ if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_a
         $descrip = $row[2];
         $category = $row[3];
         $img = $row[4];
+        $url_github = $row[5];
+        $url_project = $row[6];
     }
     
 }else {

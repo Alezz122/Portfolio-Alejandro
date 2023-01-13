@@ -158,5 +158,29 @@ header h2 span {
     opacity: 1 !important;
 }
 
-.show-text {
-}
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        right: 0;
+        display: none;
+    }
+    header, .container-projects {
+        padding: 0;
+    }
+    form input{
+        margin-top: 20px;
+    }
+    form input[type="text"]{
+        width: 50vw !important;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    header h2 {
+        font-size: 6vmax;
+    }
+    .grid-item {
+        width: auto;
+    }
+  }

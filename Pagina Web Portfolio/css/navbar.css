@@ -3,6 +3,7 @@ nav {
     width: 165px;
     height: 100vh;
     position: fixed;
+    top: 0;
     background-color: var(--blue-dark);
     color: var(--cream);
     font-family: 'Bellefair';
@@ -82,3 +83,38 @@ nav .social-media {
 nav .social-media li {
     display: inline-block;
 }
+
+#btn-display-nav {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: none;
+}
+
+/* JS CLASSES */
+
+.nav-display {
+    display: flex !important;
+}
+/* RESPONSIVE */
+/* RESPONSIVE */
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1000px) {
+
+    nav {
+        right: 0;
+        display: none;
+        width: 100vw;
+    }
+    #btn-display-nav {
+        display: block;
+        position: fixed;
+        right: 0px;
+        z-index: 20;
+    }
+    
+  }
+
