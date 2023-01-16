@@ -1,0 +1,260 @@
+@import url('./main.css');
+
+body {
+    background-color: var(--blue-bg);
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--blue-dark);
+    display: flex;
+    align-items: center;
+
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-medium);
+    height: 100%;
+    width: 60px;
+    vertical-align: middle;
+}
+
+header .logo svg {
+    width: 35px;
+    height: 35px;
+}
+
+header h1 {
+    color: var(--cream);
+    font-family: 'Bellefair';
+    font-weight: 100;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.data {
+    background-color: #81ff81;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.main #searcher {
+    max-width: 1100px;
+    width: 100%;
+}
+
+.main #searcher input[type="text"] {
+    height: 80px;
+    width: 100%;
+    max-width: 1100px;
+    outline: none;
+    font-family: 'Bellefair';
+    font-size: 36px;
+    padding-left: 18px;
+}
+
+.main .secondary-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.main .secondary-buttons select, .main .secondary-buttons button {
+    background: var(--blue-dark);
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    font-family: 'Bellefair';
+    font-size: 18px;
+    color: var(--cream);
+    padding: 0px 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.main .secondary-buttons select:hover, .main .secondary-buttons button:hover, .main .secondary-buttons select:focus, .main .secondary-buttons button:focus {
+    background: var(--blue-medium);
+}
+
+.main .secondary-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .secondary-buttons button:hover + svg {
+    color: var(--black);
+}
+
+
+.main .container-items {
+    margin-top: 25px;
+}
+
+.main .container-items .item {
+    width: auto;
+    max-width: 1100px;
+    height: 50px;
+    margin: 5px;
+    background-color: var(--blue-dark);
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: light;
+    color: var(--cream);
+    padding: 15px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.main .container-items .item:hover {
+    background-color: var(--blue-medium);
+}
+
+.main .container-items .item:focus {
+    height: 400px !important;
+    background-color: var(--blue-medium);
+}
+
+.main .container-items .item .description p {
+    font-size: 16px;
+    margin-top: 15px;
+    height: 125px;
+    overflow-y: auto;
+}
+
+.main .container-items .item .buttons {
+    margin-top: 25px;
+}
+
+.main .container-items .item .buttons button {
+    padding: 7px 25px;
+    background: var(--blue-dark);
+    color: var(--cream);
+    border: 0;
+    font-family: 'Bellefair';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main .container-items .item .buttons button:hover {
+    background: var(--blue-bg);
+}
+
+/* ADD ITEMS FORM */
+.container-modify-items {
+    background-color: var(--blue-dark);
+    height: 0px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.container-modify-items form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-modify-items form .input-container label {
+    display: block;
+    color: var(--cream);
+    font-size: 22px;
+    font-family: 'Bellefair';
+    margin-bottom: 10px;
+}
+.container-modify-items form .input-container input[type="text"], input[type="url"] {
+    display: block;
+    width: 600px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    padding: 10px;
+    background: var(--blue-bg);
+    color: var(--cream);
+}
+.container-modify-items form .input-container textarea {
+    width: 600px;
+    height: 100px;
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 200px;
+    min-height: 100px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    background: var(--blue-bg);
+    color: var(--cream);
+} 
+
+.container-modify-items form .input-container select {
+    width: 600px;
+    outline: none;
+    border: none;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    padding: 10px;
+    background: var(--blue-bg);
+    color: var(--cream);
+}
+
+.container-modify-items form .input-container option {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.container-modify-items form .input-container input[type="file"] {
+    font-size: 16px;
+}
+
+.container-modify-items form .input-container input[type="file"] {
+    font-size: 16px;
+}
+
+.container-modify-items form button[type="submit"] {
+    font-size: 16px;
+    height: 40px;
+    background: var(--blue-light);
+    border: none;
+    font-family: 'Bellefair';
+}
+
+.container-modify-items form button[type="submit"]:hover {
+    background-color: #b7f1f2;
+    border: 1px solid #81fdff;
+    cursor: pointer;
+}
+
+/* ANIMATIONS ADD IN JS */
+
+.item-on {
+    height: 250px !important;
+    background-color: var(--blue-medium) !important;
+}
+
+.container-item-add-on {
+    height: 900px !important;
+}
