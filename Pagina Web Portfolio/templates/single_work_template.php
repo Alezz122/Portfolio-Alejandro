@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,25 +20,25 @@
             </div>
             <p class="name-nav">Alejandro Doble</p>
             <div class="professions">
-                <p>Web Developer</p>
-                <p>& Designer</p>
+                <p>Desarrollador Web</p>
+                <p>& Diseñador</p>
             </div>
         </div>
         <ul class="links">
             <li>
-                <a href="./index.html#projects">Projects</a>
+                <a href="./index.html#projects">Proyectos</a>
             </li>
             <li>
-                <a href="./index.html#about-me">About Me</a>
+                <a href="./index.html#about-me">Sobre Mi</a>
             </li>
             <li>
-                <a href="./index.html#skills">Skills</a>
+                <a href="./index.html#skills">Habilidades</a>
             </li>
             <li>
                 <a href="./index.html#blog">Blog</a>
             </li>
             <li>
-                <a href="./index.html#contact">Contact</a>
+                <a href="./index.html#contact">Contacto</a>
             </li>
         </ul>
         <ul class="social-media">
@@ -82,11 +82,11 @@
         <div id="lightBoxImageContainer">
             <button id="close-button">X</button>
             <div id="img-container">
-                <img id="imageLightBox" src="data:image/png;base64, <?php echo base64_encode($img); ?>">
+                <img id="imageLightBox" src="data:image/png;base64, <?php echo base64_encode($img); ?>" alt="<?php echo $alt_image?>">
             </div>
         </div>
         <div class="item-content">
-            <img id="imageItem" src="data:image/png;base64, <?php echo base64_encode($img); ?>">
+            <img id="imageItem" src="data:image/png;base64, <?php echo base64_encode($img); ?>" alt="<?php echo $alt_image?>">
             <div class="text">
                 <p><?php echo $descrip; ?></p>
             </div>

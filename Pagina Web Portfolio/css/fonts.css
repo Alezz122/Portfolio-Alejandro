@@ -1,9 +1,8 @@
 @font-face {
-    font-family: 'Bellefair';
-    src: url(./media/fonts/Bellefair-Regular.ttf);
-  };
-
+    font-family: Bellefair;
+    src: url('../media/fonts/Bellefair-Regular.ttf');
+}
 @font-face {
-    font-family: 'Open Sans';
-    src: url(./media/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: Open Sans;
+    src: url('../media/fonts/OpenSans-Regular.ttf');
 }

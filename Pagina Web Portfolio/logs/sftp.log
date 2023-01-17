@@ -1,0 +1,1278 @@
+Jan 16 13:13:28 10.71.56.0 u817199983 Connection from 10.71.56.0 port 12034 on 82.165.88.240 port 22
+Jan 16 13:13:30 10.71.56.0 u817199983 Accepted password for u817199983 from 10.71.56.0 port 12034 ssh2
+Jan 16 13:13:30 10.71.56.0 u817199983 Starting session: subsystem 'sftp' for u817199983 from 10.71.56.0 port 12034 id 0
+Jan 16 13:13:30 10.71.56.0 u817199983 session opened for local user u817199983 from [10.71.56.0]
+Jan 16 13:15:08 10.71.56.0 u817199983 Connection from 10.71.56.0 port 13064 on 82.165.88.240 port 22
+Jan 16 13:15:09 10.71.56.0 u817199983 Accepted password for u817199983 from 10.71.56.0 port 13064 ssh2
+Jan 16 13:15:08 10.71.56.0 u817199983 Connection from 10.71.56.0 port 13066 on 82.165.88.240 port 22
+Jan 16 13:15:09 10.71.56.0 u817199983 Accepted password for u817199983 from 10.71.56.0 port 13066 ssh2
+Jan 16 13:15:09 10.71.56.0 u817199983 Starting session: subsystem 'sftp' for u817199983 from 10.71.56.0 port 13064 id 0
+Jan 16 13:15:09 10.71.56.0 u817199983 Starting session: subsystem 'sftp' for u817199983 from 10.71.56.0 port 13066 id 0
+Jan 16 13:15:09 10.71.56.0 u817199983 session opened for local user u817199983 from [10.71.56.0]
+Jan 16 13:15:09 10.71.56.0 u817199983 session opened for local user u817199983 from [10.71.56.0]
+Jan 16 13:15:09 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:10 10.71.56.0 u817199983 mkdir name "/web_portfolio" mode 0777
+Jan 16 13:15:10 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f|]
+Jan 16 13:15:10 10.71.56.0 u817199983 open "/web_portfolio/about_me.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:10 10.71.56.0 u817199983 open "/web_portfolio/admin_call_item_edit.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:10 10.71.56.0 u817199983 close "/web_portfolio/admin_call_item_edit.php" bytes read 0 written 757
+Jan 16 13:15:10 10.71.56.0 u817199983 [10.71.56.0|put|0|757|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e5f63616c6c5f6974656d5f656469742e706870|]
+Jan 16 13:15:10 10.71.56.0 u817199983 close "/web_portfolio/about_me.html" bytes read 0 written 15458
+Jan 16 13:15:10 10.71.56.0 u817199983 [10.71.56.0|put|0|15458|0|0|0|2f7765625f706f7274666f6c696f2f61626f75745f6d652e68746d6c|]
+Jan 16 13:15:10 10.71.56.0 u817199983 open "/web_portfolio/admin_delete.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:10 10.71.56.0 u817199983 open "/web_portfolio/admin_edit.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/admin_delete.php" bytes read 0 written 665
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|1|665|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e5f64656c6574652e706870|]
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/admin_edit.php" bytes read 0 written 2409
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|1|2409|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e5f656469742e706870|]
+Jan 16 13:15:11 10.71.56.0 u817199983 open "/web_portfolio/admin_item_add.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:11 10.71.56.0 u817199983 open "/web_portfolio/admin_login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/admin_item_add.php" bytes read 0 written 2128
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|0|2128|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e5f6974656d5f6164642e706870|]
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/admin_login.php" bytes read 0 written 1316
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|0|1316|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e5f6c6f67696e2e706870|]
+Jan 16 13:15:11 10.71.56.0 u817199983 open "/web_portfolio/admin_panel.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:11 10.71.56.0 u817199983 open "/web_portfolio/admin_panel.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/admin_panel.js" bytes read 0 written 2453
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|0|2453|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e5f70616e656c2e6a73|]
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/admin_panel.php" bytes read 0 written 819
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|0|819|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e5f70616e656c2e706870|]
+Jan 16 13:15:11 10.71.56.0 u817199983 open "/web_portfolio/designs.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:11 10.71.56.0 u817199983 open "/web_portfolio/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/designs.php" bytes read 0 written 1415
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|0|1415|0|0|0|2f7765625f706f7274666f6c696f2f64657369676e732e706870|]
+Jan 16 13:15:11 10.71.56.0 u817199983 close "/web_portfolio/email.php" bytes read 0 written 933
+Jan 16 13:15:11 10.71.56.0 u817199983 [10.71.56.0|put|0|933|0|0|0|2f7765625f706f7274666f6c696f2f656d61696c2e706870|]
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/fonts.css" bytes read 0 written 218
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|218|0|0|0|2f7765625f706f7274666f6c696f2f666f6e74732e637373|]
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/index.css" bytes read 0 written 8424
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|8424|0|0|0|2f7765625f706f7274666f6c696f2f696e6465782e637373|]
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/index.html" bytes read 0 written 22349
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|22349|0|0|0|2f7765625f706f7274666f6c696f2f696e6465782e68746d6c|]
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/index.js" bytes read 0 written 330
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|330|0|0|0|2f7765625f706f7274666f6c696f2f696e6465782e6a73|]
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/main.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/nav.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/main.js" bytes read 0 written 0
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|0|0|0|0|2f7765625f706f7274666f6c696f2f6d61696e2e6a73|]
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/nav.js" bytes read 0 written 193
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|193|0|0|0|2f7765625f706f7274666f6c696f2f6e61762e6a73|]
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/single_work.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 open "/web_portfolio/styles.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/single_work.php" bytes read 0 written 672
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|672|0|0|0|2f7765625f706f7274666f6c696f2f73696e676c655f776f726b2e706870|]
+Jan 16 13:15:12 10.71.56.0 u817199983 close "/web_portfolio/styles.css" bytes read 0 written 0
+Jan 16 13:15:12 10.71.56.0 u817199983 [10.71.56.0|put|0|0|0|0|0|2f7765625f706f7274666f6c696f2f7374796c65732e637373|]
+Jan 16 13:15:13 10.71.56.0 u817199983 open "/web_portfolio/webs.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:13 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:13 10.71.56.0 u817199983 close "/web_portfolio/webs.php" bytes read 0 written 628
+Jan 16 13:15:13 10.71.56.0 u817199983 [10.71.56.0|put|0|628|0|0|0|2f7765625f706f7274666f6c696f2f776562732e706870|]
+Jan 16 13:15:13 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:13 10.71.56.0 u817199983 mkdir name "/web_portfolio/admin" mode 0777
+Jan 16 13:15:13 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f61646d696e|]
+Jan 16 13:15:13 10.71.56.0 u817199983 mkdir name "/web_portfolio/css" mode 0777
+Jan 16 13:15:13 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f637373|]
+Jan 16 13:15:14 10.71.56.0 u817199983 open "/web_portfolio/admin/database.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:14 10.71.56.0 u817199983 close "/web_portfolio/admin/database.php" bytes read 0 written 183
+Jan 16 13:15:14 10.71.56.0 u817199983 [10.71.56.0|put|0|183|0|0|0|2f7765625f706f7274666f6c696f2f61646d696e2f64617461626173652e706870|]
+Jan 16 13:15:14 10.71.56.0 u817199983 open "/web_portfolio/css/about_me.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:14 10.71.56.0 u817199983 close "/web_portfolio/css/about_me.css" bytes read 0 written 1950
+Jan 16 13:15:14 10.71.56.0 u817199983 [10.71.56.0|put|0|1950|0|0|0|2f7765625f706f7274666f6c696f2f6373732f61626f75745f6d652e637373|]
+Jan 16 13:15:14 10.71.56.0 u817199983 open "/web_portfolio/css/admin_login.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:14 10.71.56.0 u817199983 open "/web_portfolio/css/admin_panel.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:14 10.71.56.0 u817199983 close "/web_portfolio/css/admin_login.css" bytes read 0 written 1498
+Jan 16 13:15:14 10.71.56.0 u817199983 [10.71.56.0|put|0|1498|0|0|0|2f7765625f706f7274666f6c696f2f6373732f61646d696e5f6c6f67696e2e637373|]
+Jan 16 13:15:14 10.71.56.0 u817199983 close "/web_portfolio/css/admin_panel.css" bytes read 0 written 5504
+Jan 16 13:15:14 10.71.56.0 u817199983 [10.71.56.0|put|0|5504|0|0|0|2f7765625f706f7274666f6c696f2f6373732f61646d696e5f70616e656c2e637373|]
+Jan 16 13:15:14 10.71.56.0 u817199983 open "/web_portfolio/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:14 10.71.56.0 u817199983 open "/web_portfolio/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:14 10.71.56.0 u817199983 close "/web_portfolio/css/fonts.css" bytes read 0 written 218
+Jan 16 13:15:14 10.71.56.0 u817199983 [10.71.56.0|put|0|218|0|0|0|2f7765625f706f7274666f6c696f2f6373732f666f6e74732e637373|]
+Jan 16 13:15:15 10.71.56.0 u817199983 close "/web_portfolio/css/index.css" bytes read 0 written 10343
+Jan 16 13:15:15 10.71.56.0 u817199983 [10.71.56.0|put|1|10343|0|0|0|2f7765625f706f7274666f6c696f2f6373732f696e6465782e637373|]
+Jan 16 13:15:15 10.71.56.0 u817199983 open "/web_portfolio/css/main.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:15 10.71.56.0 u817199983 open "/web_portfolio/css/navbar.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:15 10.71.56.0 u817199983 close "/web_portfolio/css/main.css" bytes read 0 written 438
+Jan 16 13:15:15 10.71.56.0 u817199983 [10.71.56.0|put|0|438|0|0|0|2f7765625f706f7274666f6c696f2f6373732f6d61696e2e637373|]
+Jan 16 13:15:15 10.71.56.0 u817199983 close "/web_portfolio/css/navbar.css" bytes read 0 written 2056
+Jan 16 13:15:15 10.71.56.0 u817199983 [10.71.56.0|put|0|2056|0|0|0|2f7765625f706f7274666f6c696f2f6373732f6e61766261722e637373|]
+Jan 16 13:15:15 10.71.56.0 u817199983 open "/web_portfolio/css/single.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:15 10.71.56.0 u817199983 open "/web_portfolio/css/webs.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:15 10.71.56.0 u817199983 close "/web_portfolio/css/single.css" bytes read 0 written 2935
+Jan 16 13:15:15 10.71.56.0 u817199983 [10.71.56.0|put|0|2935|0|0|0|2f7765625f706f7274666f6c696f2f6373732f73696e676c652e637373|]
+Jan 16 13:15:15 10.71.56.0 u817199983 close "/web_portfolio/css/webs.css" bytes read 0 written 3292
+Jan 16 13:15:15 10.71.56.0 u817199983 [10.71.56.0|put|0|3292|0|0|0|2f7765625f706f7274666f6c696f2f6373732f776562732e637373|]
+Jan 16 13:15:15 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:16 10.71.56.0 u817199983 mkdir name "/web_portfolio/js" mode 0777
+Jan 16 13:15:16 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f6a73|]
+Jan 16 13:15:16 10.71.56.0 u817199983 open "/web_portfolio/js/designs.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:16 10.71.56.0 u817199983 open "/web_portfolio/js/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:16 10.71.56.0 u817199983 close "/web_portfolio/js/designs.js" bytes read 0 written 347
+Jan 16 13:15:16 10.71.56.0 u817199983 [10.71.56.0|put|0|347|0|0|0|2f7765625f706f7274666f6c696f2f6a732f64657369676e732e6a73|]
+Jan 16 13:15:16 10.71.56.0 u817199983 close "/web_portfolio/js/index.js" bytes read 0 written 334
+Jan 16 13:15:16 10.71.56.0 u817199983 [10.71.56.0|put|0|334|0|0|0|2f7765625f706f7274666f6c696f2f6a732f696e6465782e6a73|]
+Jan 16 13:15:16 10.71.56.0 u817199983 open "/web_portfolio/js/single.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:16 10.71.56.0 u817199983 open "/web_portfolio/js/webs.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:17 10.71.56.0 u817199983 close "/web_portfolio/js/webs.js" bytes read 0 written 0
+Jan 16 13:15:17 10.71.56.0 u817199983 [10.71.56.0|put|1|0|0|0|0|2f7765625f706f7274666f6c696f2f6a732f776562732e6a73|]
+Jan 16 13:15:17 10.71.56.0 u817199983 close "/web_portfolio/js/single.js" bytes read 0 written 457
+Jan 16 13:15:17 10.71.56.0 u817199983 [10.71.56.0|put|1|457|0|0|0|2f7765625f706f7274666f6c696f2f6a732f73696e676c652e6a73|]
+Jan 16 13:15:17 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:17 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:17 10.71.56.0 u817199983 mkdir name "/web_portfolio/libraries" mode 0777
+Jan 16 13:15:17 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f6c6962726172696573|]
+Jan 16 13:15:17 10.71.56.0 u817199983 mkdir name "/web_portfolio/templates" mode 0777
+Jan 16 13:15:17 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f74656d706c61746573|]
+Jan 16 13:15:18 10.71.56.0 u817199983 open "/web_portfolio/libraries/masonry.pkgd.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:18 10.71.56.0 u817199983 open "/web_portfolio/templates/admin_login_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:18 10.71.56.0 u817199983 close "/web_portfolio/libraries/masonry.pkgd.min.js" bytes read 0 written 24103
+Jan 16 13:15:18 10.71.56.0 u817199983 [10.71.56.0|put|0|24103|0|0|0|2f7765625f706f7274666f6c696f2f6c69627261726965732f6d61736f6e72792e706b67642e6d696e2e6a73|]
+Jan 16 13:15:18 10.71.56.0 u817199983 close "/web_portfolio/templates/admin_login_template.php" bytes read 0 written 1143
+Jan 16 13:15:18 10.71.56.0 u817199983 [10.71.56.0|put|0|1143|0|0|0|2f7765625f706f7274666f6c696f2f74656d706c617465732f61646d696e5f6c6f67696e5f74656d706c6174652e706870|]
+Jan 16 13:15:18 10.71.56.0 u817199983 open "/web_portfolio/templates/designs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:18 10.71.56.0 u817199983 close "/web_portfolio/templates/designs_template.php" bytes read 0 written 15086
+Jan 16 13:15:18 10.71.56.0 u817199983 [10.71.56.0|put|0|15086|0|0|0|2f7765625f706f7274666f6c696f2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 16 13:15:18 10.71.56.0 u817199983 open "/web_portfolio/templates/admin_panel_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:18 10.71.56.0 u817199983 open "/web_portfolio/templates/single_work_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:18 10.71.56.0 u817199983 close "/web_portfolio/templates/admin_panel_template.php" bytes read 0 written 9108
+Jan 16 13:15:18 10.71.56.0 u817199983 [10.71.56.0|put|0|9108|0|0|0|2f7765625f706f7274666f6c696f2f74656d706c617465732f61646d696e5f70616e656c5f74656d706c6174652e706870|]
+Jan 16 13:15:18 10.71.56.0 u817199983 close "/web_portfolio/templates/single_work_template.php" bytes read 0 written 15031
+Jan 16 13:15:18 10.71.56.0 u817199983 [10.71.56.0|put|0|15031|0|0|0|2f7765625f706f7274666f6c696f2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 16 13:15:18 10.71.56.0 u817199983 open "/web_portfolio/templates/webs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:18 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:19 10.71.56.0 u817199983 close "/web_portfolio/templates/webs_template.php" bytes read 0 written 14776
+Jan 16 13:15:19 10.71.56.0 u817199983 [10.71.56.0|put|1|14776|0|0|0|2f7765625f706f7274666f6c696f2f74656d706c617465732f776562735f74656d706c6174652e706870|]
+Jan 16 13:15:19 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:19 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:19 10.71.56.0 u817199983 mkdir name "/web_portfolio/media" mode 0777
+Jan 16 13:15:19 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f6d65646961|]
+Jan 16 13:15:19 10.71.56.0 u817199983 mkdir name "/web_portfolio/media/fonts" mode 0777
+Jan 16 13:15:19 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e7473|]
+Jan 16 13:15:20 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/Bellefair-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:20 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:20 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/Bellefair-Regular.ttf" bytes read 0 written 65432
+Jan 16 13:15:20 10.71.56.0 u817199983 [10.71.56.0|put|0|65432|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f42656c6c65666169722d526567756c61722e747466|]
+Jan 16 13:15:20 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/OpenSans-VariableFont_wdth,wght.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:20 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf" bytes read 0 written 579296
+Jan 16 13:15:20 10.71.56.0 u817199983 [10.71.56.0|put|0|579296|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f4f70656e53616e732d4974616c69632d5661726961626c65466f6e745f776474682c776768742e747466|]
+Jan 16 13:15:21 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/PlayfairDisplay-Black.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:21 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/OpenSans-VariableFont_wdth,wght.ttf" bytes read 0 written 528976
+Jan 16 13:15:21 10.71.56.0 u817199983 [10.71.56.0|put|1|528976|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f4f70656e53616e732d5661726961626c65466f6e745f776474682c776768742e747466|]
+Jan 16 13:15:21 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/PlayfairDisplay-Black.ttf" bytes read 0 written 189516
+Jan 16 13:15:21 10.71.56.0 u817199983 [10.71.56.0|put|0|189516|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f506c617966616972446973706c61792d426c61636b2e747466|]
+Jan 16 13:15:21 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/PlayfairDisplay-BlackItalic.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:21 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/PlayfairDisplay-Bold.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:21 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/PlayfairDisplay-BlackItalic.ttf" bytes read 0 written 177400
+Jan 16 13:15:21 10.71.56.0 u817199983 [10.71.56.0|put|0|177400|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f506c617966616972446973706c61792d426c61636b4974616c69632e747466|]
+Jan 16 13:15:21 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/PlayfairDisplay-Bold.ttf" bytes read 0 written 192588
+Jan 16 13:15:21 10.71.56.0 u817199983 [10.71.56.0|put|0|192588|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f506c617966616972446973706c61792d426f6c642e747466|]
+Jan 16 13:15:21 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/PlayfairDisplay-BoldItalic.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:21 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/PlayfairDisplay-Italic.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:21 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/PlayfairDisplay-BoldItalic.ttf" bytes read 0 written 182084
+Jan 16 13:15:21 10.71.56.0 u817199983 [10.71.56.0|put|0|182084|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f506c617966616972446973706c61792d426f6c644974616c69632e747466|]
+Jan 16 13:15:21 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/PlayfairDisplay-Italic.ttf" bytes read 0 written 174856
+Jan 16 13:15:21 10.71.56.0 u817199983 [10.71.56.0|put|0|174856|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f506c617966616972446973706c61792d4974616c69632e747466|]
+Jan 16 13:15:21 10.71.56.0 u817199983 open "/web_portfolio/media/fonts/PlayfairDisplay-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:21 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:15:22 10.71.56.0 u817199983 close "/web_portfolio/media/fonts/PlayfairDisplay-Regular.ttf" bytes read 0 written 186856
+Jan 16 13:15:22 10.71.56.0 u817199983 [10.71.56.0|put|1|186856|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f666f6e74732f506c617966616972446973706c61792d526567756c61722e747466|]
+Jan 16 13:15:22 10.71.56.0 u817199983 mkdir name "/web_portfolio/media/img" mode 0777
+Jan 16 13:15:22 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d67|]
+Jan 16 13:15:22 10.71.56.0 u817199983 open "/web_portfolio/media/img/buscar.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:22 10.71.56.0 u817199983 open "/web_portfolio/media/img/ale-16-colours.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/buscar.png" bytes read 0 written 11848
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|1|11848|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f6275736361722e706e67|]
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/ale-16-colours.png" bytes read 0 written 285990
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|1|285990|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f616c652d31362d636f6c6f7572732e706e67|]
+Jan 16 13:15:23 10.71.56.0 u817199983 open "/web_portfolio/media/img/Circles.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:23 10.71.56.0 u817199983 open "/web_portfolio/media/img/css.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/Circles.svg" bytes read 0 written 548
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|0|548|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f436972636c65732e737667|]
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/css.png" bytes read 0 written 1731
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|0|1731|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f6373732e706e67|]
+Jan 16 13:15:23 10.71.56.0 u817199983 open "/web_portfolio/media/img/FavIcon.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:23 10.71.56.0 u817199983 open "/web_portfolio/media/img/figma.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/FavIcon.svg" bytes read 0 written 1900
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|0|1900|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f46617649636f6e2e737667|]
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/figma.png" bytes read 0 written 1137
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|0|1137|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f6669676d612e706e67|]
+Jan 16 13:15:23 10.71.56.0 u817199983 open "/web_portfolio/media/img/Footer-bg.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:23 10.71.56.0 u817199983 open "/web_portfolio/media/img/html.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/Footer-bg.png" bytes read 0 written 125056
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|0|125056|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f466f6f7465722d62672e706e67|]
+Jan 16 13:15:23 10.71.56.0 u817199983 close "/web_portfolio/media/img/html.png" bytes read 0 written 1771
+Jan 16 13:15:23 10.71.56.0 u817199983 [10.71.56.0|put|0|1771|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f68746d6c2e706e67|]
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/illustrator.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/indesing.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:24 10.71.56.0 u817199983 close "/web_portfolio/media/img/illustrator.png" bytes read 0 written 1122
+Jan 16 13:15:24 10.71.56.0 u817199983 [10.71.56.0|put|0|1122|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f696c6c7573747261746f722e706e67|]
+Jan 16 13:15:24 10.71.56.0 u817199983 close "/web_portfolio/media/img/indesing.png" bytes read 0 written 968
+Jan 16 13:15:24 10.71.56.0 u817199983 [10.71.56.0|put|0|968|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f696e646573696e672e706e67|]
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/js.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/menu.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:24 10.71.56.0 u817199983 close "/web_portfolio/media/img/js.png" bytes read 0 written 3248
+Jan 16 13:15:24 10.71.56.0 u817199983 [10.71.56.0|put|0|3248|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f6a732e706e67|]
+Jan 16 13:15:24 10.71.56.0 u817199983 close "/web_portfolio/media/img/menu.png" bytes read 0 written 4534
+Jan 16 13:15:24 10.71.56.0 u817199983 [10.71.56.0|put|0|4534|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f6d656e752e706e67|]
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/mysql.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/nodejs.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:24 10.71.56.0 u817199983 close "/web_portfolio/media/img/mysql.png" bytes read 0 written 1468
+Jan 16 13:15:24 10.71.56.0 u817199983 [10.71.56.0|put|0|1468|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f6d7973716c2e706e67|]
+Jan 16 13:15:24 10.71.56.0 u817199983 close "/web_portfolio/media/img/nodejs.png" bytes read 0 written 2986
+Jan 16 13:15:24 10.71.56.0 u817199983 [10.71.56.0|put|0|2986|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f6e6f64656a732e706e67|]
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/photoshop.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:24 10.71.56.0 u817199983 open "/web_portfolio/media/img/php.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:25 10.71.56.0 u817199983 close "/web_portfolio/media/img/photoshop.png" bytes read 0 written 1334
+Jan 16 13:15:25 10.71.56.0 u817199983 [10.71.56.0|put|1|1334|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f70686f746f73686f702e706e67|]
+Jan 16 13:15:25 10.71.56.0 u817199983 close "/web_portfolio/media/img/php.png" bytes read 0 written 2295
+Jan 16 13:15:25 10.71.56.0 u817199983 [10.71.56.0|put|1|2295|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f7068702e706e67|]
+Jan 16 13:15:25 10.71.56.0 u817199983 open "/web_portfolio/media/img/profile-picture.jpeg" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:25 10.71.56.0 u817199983 open "/web_portfolio/media/img/react.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:25 10.71.56.0 u817199983 close "/web_portfolio/media/img/profile-picture.jpeg" bytes read 0 written 89710
+Jan 16 13:15:25 10.71.56.0 u817199983 [10.71.56.0|put|0|89710|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f70726f66696c652d706963747572652e6a706567|]
+Jan 16 13:15:25 10.71.56.0 u817199983 close "/web_portfolio/media/img/react.png" bytes read 0 written 3582
+Jan 16 13:15:25 10.71.56.0 u817199983 [10.71.56.0|put|0|3582|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f72656163742e706e67|]
+Jan 16 13:15:25 10.71.56.0 u817199983 open "/web_portfolio/media/img/xd.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:15:25 10.71.56.0 u817199983 close "/web_portfolio/media/img/xd.png" bytes read 0 written 1733
+Jan 16 13:15:25 10.71.56.0 u817199983 [10.71.56.0|put|0|1733|0|0|0|2f7765625f706f7274666f6c696f2f6d656469612f696d672f78642e706e67|]
+Jan 16 13:16:25 10.71.56.0 u817199983 session closed for local user u817199983 from [10.71.56.0]
+Jan 16 13:16:25 10.71.56.0 u817199983 Connection closed by 10.71.56.0 port 13064
+Jan 16 13:16:25 10.71.56.0 u817199983 session closed for local user u817199983 from [10.71.56.0]
+Jan 16 13:16:25 10.71.56.0 u817199983 Connection closed by 10.71.56.0 port 13066
+Jan 16 13:22:06 10.71.57.0 tmp110870742-9471 Connection from 10.71.57.0 port 46006 on 82.165.88.240 port 22
+Jan 16 13:22:07 10.71.57.0 tmp110870742-9471 Accepted password for tmp110870742-9471 from 10.71.57.0 port 46006 ssh2
+Jan 16 13:22:07 10.71.57.0 tmp110870742-9471 Starting session: subsystem 'sftp' for tmp110870742-9471 from 10.71.57.0 port 46006 id 0
+Jan 16 13:22:07 10.71.57.0 tmp110870742-9471 session opened for local user tmp110870742-9471 from [10.71.57.0]
+Jan 16 13:22:36 10.71.57.0 tmp110870742-9471 open "/index.html" flags READ mode 0666
+Jan 16 13:22:36 10.71.57.0 tmp110870742-9471 close "/index.html" bytes read 336 written 0
+Jan 16 13:22:36 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|336|0|0|0|2f696e6465782e68746d6c|]
+Jan 16 13:22:38 10.71.57.0 tmp110870742-3954 Connection from 10.71.57.0 port 46052 on 82.165.88.240 port 22
+Jan 16 13:22:38 10.71.57.0 tmp110870742-3954 Accepted password for tmp110870742-3954 from 10.71.57.0 port 46052 ssh2
+Jan 16 13:23:17 10.71.56.0 u817199983 session closed for local user u817199983 from [10.71.56.0]
+Jan 16 13:23:17 10.71.56.0 u817199983 Connection closed by 10.71.56.0 port 12034
+Jan 16 13:23:17 10.71.56.0 u817199983 Connection from 10.71.56.0 port 15820 on 82.165.88.240 port 22
+Jan 16 13:23:17 10.71.56.0 u817199983 Accepted password for u817199983 from 10.71.56.0 port 15820 ssh2
+Jan 16 13:23:18 10.71.56.0 u817199983 Starting session: subsystem 'sftp' for u817199983 from 10.71.56.0 port 15820 id 0
+Jan 16 13:23:18 10.71.56.0 u817199983 session opened for local user u817199983 from [10.71.56.0]
+Jan 16 13:23:22 10.71.56.0 u817199983 session closed for local user u817199983 from [10.71.56.0]
+Jan 16 13:23:22 10.71.56.0 u817199983 Connection closed by 10.71.56.0 port 15820
+Jan 16 13:23:22 10.71.56.0 u817199983 Connection from 10.71.56.0 port 15850 on 82.165.88.240 port 22
+Jan 16 13:23:23 10.71.56.0 u817199983 Accepted password for u817199983 from 10.71.56.0 port 15850 ssh2
+Jan 16 13:23:23 10.71.56.0 u817199983 Starting session: subsystem 'sftp' for u817199983 from 10.71.56.0 port 15850 id 0
+Jan 16 13:23:23 10.71.56.0 u817199983 session opened for local user u817199983 from [10.71.56.0]
+Jan 16 13:23:33 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:33 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:34 10.71.56.0 u817199983 rmdir name "/web_portfolio"
+Jan 16 13:23:34 10.71.56.0 u817199983 [10.71.56.0|rmdir|0|0|0|0|2|2f7765625f706f7274666f6c696f|]
+Jan 16 13:23:34 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:49 10.71.56.0 u817199983 Connection from 10.71.56.0 port 15948 on 82.165.88.240 port 22
+Jan 16 13:23:50 10.71.56.0 u817199983 Accepted password for u817199983 from 10.71.56.0 port 15948 ssh2
+Jan 16 13:23:49 10.71.56.0 u817199983 Connection from 10.71.56.0 port 15950 on 82.165.88.240 port 22
+Jan 16 13:23:50 10.71.56.0 u817199983 Accepted password for u817199983 from 10.71.56.0 port 15950 ssh2
+Jan 16 13:23:50 10.71.56.0 u817199983 Starting session: subsystem 'sftp' for u817199983 from 10.71.56.0 port 15948 id 0
+Jan 16 13:23:50 10.71.56.0 u817199983 session opened for local user u817199983 from [10.71.56.0]
+Jan 16 13:23:50 10.71.56.0 u817199983 Starting session: subsystem 'sftp' for u817199983 from 10.71.56.0 port 15950 id 0
+Jan 16 13:23:50 10.71.56.0 u817199983 session opened for local user u817199983 from [10.71.56.0]
+Jan 16 13:23:50 10.71.56.0 u817199983 open "/admin_call_item_edit.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:50 10.71.56.0 u817199983 close "/admin_call_item_edit.php" bytes read 0 written 757
+Jan 16 13:23:50 10.71.56.0 u817199983 [10.71.56.0|put|0|757|0|0|0|2f61646d696e5f63616c6c5f6974656d5f656469742e706870|]
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/admin_delete.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/admin_edit.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 close "/admin_delete.php" bytes read 0 written 665
+Jan 16 13:23:51 10.71.56.0 u817199983 [10.71.56.0|put|0|665|0|0|0|2f61646d696e5f64656c6574652e706870|]
+Jan 16 13:23:51 10.71.56.0 u817199983 close "/admin_edit.php" bytes read 0 written 2409
+Jan 16 13:23:51 10.71.56.0 u817199983 [10.71.56.0|put|0|2409|0|0|0|2f61646d696e5f656469742e706870|]
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/admin_item_add.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/admin_login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 close "/admin_item_add.php" bytes read 0 written 2128
+Jan 16 13:23:51 10.71.56.0 u817199983 [10.71.56.0|put|0|2128|0|0|0|2f61646d696e5f6974656d5f6164642e706870|]
+Jan 16 13:23:51 10.71.56.0 u817199983 close "/admin_login.php" bytes read 0 written 1316
+Jan 16 13:23:51 10.71.56.0 u817199983 [10.71.56.0|put|0|1316|0|0|0|2f61646d696e5f6c6f67696e2e706870|]
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/admin_panel.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/admin_panel.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 close "/admin_panel.js" bytes read 0 written 2453
+Jan 16 13:23:51 10.71.56.0 u817199983 [10.71.56.0|put|0|2453|0|0|0|2f61646d696e5f70616e656c2e6a73|]
+Jan 16 13:23:51 10.71.56.0 u817199983 close "/admin_panel.php" bytes read 0 written 819
+Jan 16 13:23:51 10.71.56.0 u817199983 [10.71.56.0|put|0|819|0|0|0|2f61646d696e5f70616e656c2e706870|]
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/designs.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:51 10.71.56.0 u817199983 close "/designs.php" bytes read 0 written 1415
+Jan 16 13:23:51 10.71.56.0 u817199983 [10.71.56.0|put|0|1415|0|0|0|2f64657369676e732e706870|]
+Jan 16 13:23:52 10.71.56.0 u817199983 close "/email.php" bytes read 0 written 933
+Jan 16 13:23:52 10.71.56.0 u817199983 [10.71.56.0|put|1|933|0|0|0|2f656d61696c2e706870|]
+Jan 16 13:23:52 10.71.56.0 u817199983 open "/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:52 10.71.56.0 u817199983 open "/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:52 10.71.56.0 u817199983 close "/fonts.css" bytes read 0 written 218
+Jan 16 13:23:52 10.71.56.0 u817199983 [10.71.56.0|put|0|218|0|0|0|2f666f6e74732e637373|]
+Jan 16 13:23:52 10.71.56.0 u817199983 close "/index.css" bytes read 0 written 8424
+Jan 16 13:23:52 10.71.56.0 u817199983 [10.71.56.0|put|0|8424|0|0|0|2f696e6465782e637373|]
+Jan 16 13:23:52 10.71.56.0 u817199983 open "/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:52 10.71.56.0 u817199983 close "/index.js" bytes read 0 written 330
+Jan 16 13:23:52 10.71.56.0 u817199983 [10.71.56.0|put|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 16 13:23:52 10.71.56.0 u817199983 open "/main.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:52 10.71.56.0 u817199983 close "/main.js" bytes read 0 written 0
+Jan 16 13:23:52 10.71.56.0 u817199983 [10.71.56.0|put|0|0|0|0|0|2f6d61696e2e6a73|]
+Jan 16 13:23:52 10.71.56.0 u817199983 open "/nav.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:53 10.71.56.0 u817199983 close "/nav.js" bytes read 0 written 193
+Jan 16 13:23:53 10.71.56.0 u817199983 [10.71.56.0|put|1|193|0|0|0|2f6e61762e6a73|]
+Jan 16 13:23:53 10.71.56.0 u817199983 open "/single_work.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:53 10.71.56.0 u817199983 close "/single_work.php" bytes read 0 written 672
+Jan 16 13:23:53 10.71.56.0 u817199983 [10.71.56.0|put|0|672|0|0|0|2f73696e676c655f776f726b2e706870|]
+Jan 16 13:23:53 10.71.56.0 u817199983 open "/styles.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:53 10.71.56.0 u817199983 close "/styles.css" bytes read 0 written 0
+Jan 16 13:23:53 10.71.56.0 u817199983 [10.71.56.0|put|0|0|0|0|0|2f7374796c65732e637373|]
+Jan 16 13:23:53 10.71.56.0 u817199983 open "/webs.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:53 10.71.56.0 u817199983 close "/webs.php" bytes read 0 written 628
+Jan 16 13:23:53 10.71.56.0 u817199983 [10.71.56.0|put|0|628|0|0|0|2f776562732e706870|]
+Jan 16 13:23:53 10.71.56.0 u817199983 open "/about_me.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:54 10.71.56.0 u817199983 close "/about_me.html" bytes read 0 written 15458
+Jan 16 13:23:54 10.71.56.0 u817199983 [10.71.56.0|put|1|15458|0|0|0|2f61626f75745f6d652e68746d6c|]
+Jan 16 13:23:54 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:54 10.71.56.0 u817199983 mkdir name "/admin" mode 0777
+Jan 16 13:23:54 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f61646d696e|]
+Jan 16 13:23:54 10.71.56.0 u817199983 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:54 10.71.56.0 u817199983 close "/index.html" bytes read 0 written 22349
+Jan 16 13:23:54 10.71.56.0 u817199983 [10.71.56.0|put|0|22349|0|0|0|2f696e6465782e68746d6c|]
+Jan 16 13:23:54 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:55 10.71.56.0 u817199983 mkdir name "/css" mode 0777
+Jan 16 13:23:55 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f637373|]
+Jan 16 13:23:55 10.71.56.0 u817199983 open "/admin/database.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:55 10.71.56.0 u817199983 close "/admin/database.php" bytes read 0 written 183
+Jan 16 13:23:55 10.71.56.0 u817199983 [10.71.56.0|put|0|183|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 16 13:23:55 10.71.56.0 u817199983 open "/css/admin_login.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:55 10.71.56.0 u817199983 open "/css/about_me.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:55 10.71.56.0 u817199983 close "/css/admin_login.css" bytes read 0 written 1498
+Jan 16 13:23:55 10.71.56.0 u817199983 [10.71.56.0|put|0|1498|0|0|0|2f6373732f61646d696e5f6c6f67696e2e637373|]
+Jan 16 13:23:55 10.71.56.0 u817199983 close "/css/about_me.css" bytes read 0 written 1950
+Jan 16 13:23:55 10.71.56.0 u817199983 [10.71.56.0|put|0|1950|0|0|0|2f6373732f61626f75745f6d652e637373|]
+Jan 16 13:23:56 10.71.56.0 u817199983 open "/css/admin_panel.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:56 10.71.56.0 u817199983 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:56 10.71.56.0 u817199983 close "/css/admin_panel.css" bytes read 0 written 5504
+Jan 16 13:23:56 10.71.56.0 u817199983 [10.71.56.0|put|0|5504|0|0|0|2f6373732f61646d696e5f70616e656c2e637373|]
+Jan 16 13:23:56 10.71.56.0 u817199983 close "/css/fonts.css" bytes read 0 written 218
+Jan 16 13:23:56 10.71.56.0 u817199983 [10.71.56.0|put|0|218|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 16 13:23:56 10.71.56.0 u817199983 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:56 10.71.56.0 u817199983 open "/css/main.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:56 10.71.56.0 u817199983 close "/css/index.css" bytes read 0 written 10343
+Jan 16 13:23:56 10.71.56.0 u817199983 [10.71.56.0|put|0|10343|0|0|0|2f6373732f696e6465782e637373|]
+Jan 16 13:23:56 10.71.56.0 u817199983 close "/css/main.css" bytes read 0 written 438
+Jan 16 13:23:56 10.71.56.0 u817199983 [10.71.56.0|put|0|438|0|0|0|2f6373732f6d61696e2e637373|]
+Jan 16 13:23:56 10.71.56.0 u817199983 open "/css/navbar.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:56 10.71.56.0 u817199983 open "/css/single.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:56 10.71.56.0 u817199983 close "/css/navbar.css" bytes read 0 written 2056
+Jan 16 13:23:56 10.71.56.0 u817199983 [10.71.56.0|put|0|2056|0|0|0|2f6373732f6e61766261722e637373|]
+Jan 16 13:23:56 10.71.56.0 u817199983 close "/css/single.css" bytes read 0 written 2935
+Jan 16 13:23:56 10.71.56.0 u817199983 [10.71.56.0|put|0|2935|0|0|0|2f6373732f73696e676c652e637373|]
+Jan 16 13:23:56 10.71.56.0 u817199983 open "/css/webs.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:56 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:56 10.71.56.0 u817199983 close "/css/webs.css" bytes read 0 written 3292
+Jan 16 13:23:56 10.71.56.0 u817199983 [10.71.56.0|put|0|3292|0|0|0|2f6373732f776562732e637373|]
+Jan 16 13:23:57 10.71.56.0 u817199983 mkdir name "/js" mode 0777
+Jan 16 13:23:57 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f6a73|]
+Jan 16 13:23:57 10.71.56.0 u817199983 open "/js/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:57 10.71.56.0 u817199983 open "/js/designs.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:58 10.71.56.0 u817199983 close "/js/index.js" bytes read 0 written 334
+Jan 16 13:23:58 10.71.56.0 u817199983 [10.71.56.0|put|1|334|0|0|0|2f6a732f696e6465782e6a73|]
+Jan 16 13:23:58 10.71.56.0 u817199983 close "/js/designs.js" bytes read 0 written 347
+Jan 16 13:23:58 10.71.56.0 u817199983 [10.71.56.0|put|1|347|0|0|0|2f6a732f64657369676e732e6a73|]
+Jan 16 13:23:58 10.71.56.0 u817199983 open "/js/single.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:58 10.71.56.0 u817199983 open "/js/webs.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:58 10.71.56.0 u817199983 close "/js/webs.js" bytes read 0 written 0
+Jan 16 13:23:58 10.71.56.0 u817199983 [10.71.56.0|put|0|0|0|0|0|2f6a732f776562732e6a73|]
+Jan 16 13:23:58 10.71.56.0 u817199983 close "/js/single.js" bytes read 0 written 457
+Jan 16 13:23:58 10.71.56.0 u817199983 [10.71.56.0|put|0|457|0|0|0|2f6a732f73696e676c652e6a73|]
+Jan 16 13:23:58 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:58 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:58 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:58 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:23:58 10.71.56.0 u817199983 mkdir name "/libraries" mode 0777
+Jan 16 13:23:58 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f6c6962726172696573|]
+Jan 16 13:23:58 10.71.56.0 u817199983 mkdir name "/media" mode 0777
+Jan 16 13:23:58 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f6d65646961|]
+Jan 16 13:23:59 10.71.56.0 u817199983 mkdir name "/media/fonts" mode 0777
+Jan 16 13:23:59 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f6d656469612f666f6e7473|]
+Jan 16 13:23:59 10.71.56.0 u817199983 open "/libraries/masonry.pkgd.min.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:59 10.71.56.0 u817199983 close "/libraries/masonry.pkgd.min.js" bytes read 0 written 24103
+Jan 16 13:23:59 10.71.56.0 u817199983 [10.71.56.0|put|0|24103|0|0|0|2f6c69627261726965732f6d61736f6e72792e706b67642e6d696e2e6a73|]
+Jan 16 13:23:59 10.71.56.0 u817199983 open "/media/fonts/Bellefair-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:23:59 10.71.56.0 u817199983 open "/media/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:00 10.71.56.0 u817199983 close "/media/fonts/Bellefair-Regular.ttf" bytes read 0 written 65432
+Jan 16 13:24:00 10.71.56.0 u817199983 [10.71.56.0|put|1|65432|0|0|0|2f6d656469612f666f6e74732f42656c6c65666169722d526567756c61722e747466|]
+Jan 16 13:24:00 10.71.56.0 u817199983 open "/media/fonts/OpenSans-VariableFont_wdth,wght.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:00 10.71.56.0 u817199983 close "/media/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf" bytes read 0 written 579296
+Jan 16 13:24:00 10.71.56.0 u817199983 [10.71.56.0|put|1|579296|0|0|0|2f6d656469612f666f6e74732f4f70656e53616e732d4974616c69632d5661726961626c65466f6e745f776474682c776768742e747466|]
+Jan 16 13:24:00 10.71.56.0 u817199983 open "/media/fonts/PlayfairDisplay-Black.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:00 10.71.56.0 u817199983 close "/media/fonts/OpenSans-VariableFont_wdth,wght.ttf" bytes read 0 written 528976
+Jan 16 13:24:00 10.71.56.0 u817199983 [10.71.56.0|put|0|528976|0|0|0|2f6d656469612f666f6e74732f4f70656e53616e732d5661726961626c65466f6e745f776474682c776768742e747466|]
+Jan 16 13:24:00 10.71.56.0 u817199983 close "/media/fonts/PlayfairDisplay-Black.ttf" bytes read 0 written 189516
+Jan 16 13:24:00 10.71.56.0 u817199983 [10.71.56.0|put|0|189516|0|0|0|2f6d656469612f666f6e74732f506c617966616972446973706c61792d426c61636b2e747466|]
+Jan 16 13:24:00 10.71.56.0 u817199983 open "/media/fonts/PlayfairDisplay-BlackItalic.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:00 10.71.56.0 u817199983 open "/media/fonts/PlayfairDisplay-Bold.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:00 10.71.56.0 u817199983 close "/media/fonts/PlayfairDisplay-BlackItalic.ttf" bytes read 0 written 177400
+Jan 16 13:24:00 10.71.56.0 u817199983 [10.71.56.0|put|0|177400|0|0|0|2f6d656469612f666f6e74732f506c617966616972446973706c61792d426c61636b4974616c69632e747466|]
+Jan 16 13:24:00 10.71.56.0 u817199983 close "/media/fonts/PlayfairDisplay-Bold.ttf" bytes read 0 written 192588
+Jan 16 13:24:00 10.71.56.0 u817199983 [10.71.56.0|put|0|192588|0|0|0|2f6d656469612f666f6e74732f506c617966616972446973706c61792d426f6c642e747466|]
+Jan 16 13:24:00 10.71.56.0 u817199983 open "/media/fonts/PlayfairDisplay-BoldItalic.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:00 10.71.56.0 u817199983 open "/media/fonts/PlayfairDisplay-Italic.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:01 10.71.56.0 u817199983 close "/media/fonts/PlayfairDisplay-BoldItalic.ttf" bytes read 0 written 182084
+Jan 16 13:24:01 10.71.56.0 u817199983 [10.71.56.0|put|1|182084|0|0|0|2f6d656469612f666f6e74732f506c617966616972446973706c61792d426f6c644974616c69632e747466|]
+Jan 16 13:24:01 10.71.56.0 u817199983 close "/media/fonts/PlayfairDisplay-Italic.ttf" bytes read 0 written 174856
+Jan 16 13:24:01 10.71.56.0 u817199983 [10.71.56.0|put|1|174856|0|0|0|2f6d656469612f666f6e74732f506c617966616972446973706c61792d4974616c69632e747466|]
+Jan 16 13:24:01 10.71.56.0 u817199983 open "/media/fonts/PlayfairDisplay-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:01 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:24:01 10.71.56.0 u817199983 close "/media/fonts/PlayfairDisplay-Regular.ttf" bytes read 0 written 186856
+Jan 16 13:24:01 10.71.56.0 u817199983 [10.71.56.0|put|0|186856|0|0|0|2f6d656469612f666f6e74732f506c617966616972446973706c61792d526567756c61722e747466|]
+Jan 16 13:24:01 10.71.56.0 u817199983 mkdir name "/media/img" mode 0777
+Jan 16 13:24:01 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f6d656469612f696d67|]
+Jan 16 13:24:02 10.71.56.0 u817199983 open "/media/img/buscar.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:02 10.71.56.0 u817199983 open "/media/img/ale-16-colours.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:02 10.71.56.0 u817199983 close "/media/img/buscar.png" bytes read 0 written 11848
+Jan 16 13:24:02 10.71.56.0 u817199983 [10.71.56.0|put|0|11848|0|0|0|2f6d656469612f696d672f6275736361722e706e67|]
+Jan 16 13:24:02 10.71.56.0 u817199983 close "/media/img/ale-16-colours.png" bytes read 0 written 285990
+Jan 16 13:24:02 10.71.56.0 u817199983 [10.71.56.0|put|0|285990|0|0|0|2f6d656469612f696d672f616c652d31362d636f6c6f7572732e706e67|]
+Jan 16 13:24:02 10.71.56.0 u817199983 open "/media/img/Circles.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:02 10.71.56.0 u817199983 open "/media/img/css.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:02 10.71.56.0 u817199983 close "/media/img/Circles.svg" bytes read 0 written 548
+Jan 16 13:24:02 10.71.56.0 u817199983 [10.71.56.0|put|0|548|0|0|0|2f6d656469612f696d672f436972636c65732e737667|]
+Jan 16 13:24:02 10.71.56.0 u817199983 close "/media/img/css.png" bytes read 0 written 1731
+Jan 16 13:24:02 10.71.56.0 u817199983 [10.71.56.0|put|0|1731|0|0|0|2f6d656469612f696d672f6373732e706e67|]
+Jan 16 13:24:02 10.71.56.0 u817199983 open "/media/img/FavIcon.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:02 10.71.56.0 u817199983 open "/media/img/figma.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:02 10.71.56.0 u817199983 close "/media/img/FavIcon.svg" bytes read 0 written 1900
+Jan 16 13:24:02 10.71.56.0 u817199983 [10.71.56.0|put|0|1900|0|0|0|2f6d656469612f696d672f46617649636f6e2e737667|]
+Jan 16 13:24:02 10.71.56.0 u817199983 close "/media/img/figma.png" bytes read 0 written 1137
+Jan 16 13:24:02 10.71.56.0 u817199983 [10.71.56.0|put|0|1137|0|0|0|2f6d656469612f696d672f6669676d612e706e67|]
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/Footer-bg.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/html.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:03 10.71.56.0 u817199983 close "/media/img/Footer-bg.png" bytes read 0 written 125056
+Jan 16 13:24:03 10.71.56.0 u817199983 [10.71.56.0|put|0|125056|0|0|0|2f6d656469612f696d672f466f6f7465722d62672e706e67|]
+Jan 16 13:24:03 10.71.56.0 u817199983 close "/media/img/html.png" bytes read 0 written 1771
+Jan 16 13:24:03 10.71.56.0 u817199983 [10.71.56.0|put|0|1771|0|0|0|2f6d656469612f696d672f68746d6c2e706e67|]
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/illustrator.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/indesing.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:03 10.71.56.0 u817199983 close "/media/img/illustrator.png" bytes read 0 written 1122
+Jan 16 13:24:03 10.71.56.0 u817199983 [10.71.56.0|put|0|1122|0|0|0|2f6d656469612f696d672f696c6c7573747261746f722e706e67|]
+Jan 16 13:24:03 10.71.56.0 u817199983 close "/media/img/indesing.png" bytes read 0 written 968
+Jan 16 13:24:03 10.71.56.0 u817199983 [10.71.56.0|put|0|968|0|0|0|2f6d656469612f696d672f696e646573696e672e706e67|]
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/js.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/menu.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:03 10.71.56.0 u817199983 close "/media/img/js.png" bytes read 0 written 3248
+Jan 16 13:24:03 10.71.56.0 u817199983 [10.71.56.0|put|0|3248|0|0|0|2f6d656469612f696d672f6a732e706e67|]
+Jan 16 13:24:03 10.71.56.0 u817199983 close "/media/img/menu.png" bytes read 0 written 4534
+Jan 16 13:24:03 10.71.56.0 u817199983 [10.71.56.0|put|0|4534|0|0|0|2f6d656469612f696d672f6d656e752e706e67|]
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/mysql.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:03 10.71.56.0 u817199983 open "/media/img/nodejs.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:04 10.71.56.0 u817199983 close "/media/img/mysql.png" bytes read 0 written 1468
+Jan 16 13:24:04 10.71.56.0 u817199983 [10.71.56.0|put|0|1468|0|0|0|2f6d656469612f696d672f6d7973716c2e706e67|]
+Jan 16 13:24:04 10.71.56.0 u817199983 close "/media/img/nodejs.png" bytes read 0 written 2986
+Jan 16 13:24:04 10.71.56.0 u817199983 [10.71.56.0|put|1|2986|0|0|0|2f6d656469612f696d672f6e6f64656a732e706e67|]
+Jan 16 13:24:04 10.71.56.0 u817199983 open "/media/img/photoshop.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:04 10.71.56.0 u817199983 open "/media/img/php.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:04 10.71.56.0 u817199983 close "/media/img/photoshop.png" bytes read 0 written 1334
+Jan 16 13:24:04 10.71.56.0 u817199983 [10.71.56.0|put|0|1334|0|0|0|2f6d656469612f696d672f70686f746f73686f702e706e67|]
+Jan 16 13:24:04 10.71.56.0 u817199983 close "/media/img/php.png" bytes read 0 written 2295
+Jan 16 13:24:04 10.71.56.0 u817199983 [10.71.56.0|put|0|2295|0|0|0|2f6d656469612f696d672f7068702e706e67|]
+Jan 16 13:24:04 10.71.56.0 u817199983 open "/media/img/profile-picture.jpeg" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:04 10.71.56.0 u817199983 open "/media/img/react.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:04 10.71.56.0 u817199983 close "/media/img/profile-picture.jpeg" bytes read 0 written 89710
+Jan 16 13:24:04 10.71.56.0 u817199983 [10.71.56.0|put|0|89710|0|0|0|2f6d656469612f696d672f70726f66696c652d706963747572652e6a706567|]
+Jan 16 13:24:04 10.71.56.0 u817199983 close "/media/img/react.png" bytes read 0 written 3582
+Jan 16 13:24:04 10.71.56.0 u817199983 [10.71.56.0|put|0|3582|0|0|0|2f6d656469612f696d672f72656163742e706e67|]
+Jan 16 13:24:04 10.71.56.0 u817199983 open "/media/img/xd.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:04 10.71.56.0 u817199983 sent status No such file
+Jan 16 13:24:04 10.71.56.0 u817199983 close "/media/img/xd.png" bytes read 0 written 1733
+Jan 16 13:24:04 10.71.56.0 u817199983 [10.71.56.0|put|0|1733|0|0|0|2f6d656469612f696d672f78642e706e67|]
+Jan 16 13:24:05 10.71.56.0 u817199983 mkdir name "/templates" mode 0777
+Jan 16 13:24:05 10.71.56.0 u817199983 [10.71.56.0|mkdir|0|0|511|0|0|2f74656d706c61746573|]
+Jan 16 13:24:05 10.71.56.0 u817199983 open "/templates/admin_panel_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:05 10.71.56.0 u817199983 open "/templates/admin_login_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:05 10.71.56.0 u817199983 close "/templates/admin_panel_template.php" bytes read 0 written 9108
+Jan 16 13:24:05 10.71.56.0 u817199983 [10.71.56.0|put|0|9108|0|0|0|2f74656d706c617465732f61646d696e5f70616e656c5f74656d706c6174652e706870|]
+Jan 16 13:24:05 10.71.56.0 u817199983 close "/templates/admin_login_template.php" bytes read 0 written 1143
+Jan 16 13:24:05 10.71.56.0 u817199983 [10.71.56.0|put|0|1143|0|0|0|2f74656d706c617465732f61646d696e5f6c6f67696e5f74656d706c6174652e706870|]
+Jan 16 13:24:06 10.71.56.0 u817199983 open "/templates/designs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:06 10.71.56.0 u817199983 open "/templates/single_work_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:06 10.71.56.0 u817199983 close "/templates/designs_template.php" bytes read 0 written 15086
+Jan 16 13:24:06 10.71.56.0 u817199983 [10.71.56.0|put|0|15086|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 16 13:24:06 10.71.56.0 u817199983 close "/templates/single_work_template.php" bytes read 0 written 15031
+Jan 16 13:24:06 10.71.56.0 u817199983 [10.71.56.0|put|0|15031|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 16 13:24:06 10.71.56.0 u817199983 open "/templates/webs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 13:24:06 10.71.56.0 u817199983 close "/templates/webs_template.php" bytes read 0 written 14776
+Jan 16 13:24:06 10.71.56.0 u817199983 [10.71.56.0|put|0|14776|0|0|0|2f74656d706c617465732f776562735f74656d706c6174652e706870|]
+Jan 16 13:25:06 10.71.56.0 u817199983 session closed for local user u817199983 from [10.71.56.0]
+Jan 16 13:25:06 10.71.56.0 u817199983 Connection closed by 10.71.56.0 port 15950
+Jan 16 13:25:06 10.71.56.0 u817199983 session closed for local user u817199983 from [10.71.56.0]
+Jan 16 13:25:06 10.71.56.0 u817199983 Connection closed by 10.71.56.0 port 15948
+Jan 16 14:09:52 10.71.57.0 tmp110870742-9471 open "/admin/database.php" flags READ mode 0666
+Jan 16 14:09:52 10.71.57.0 tmp110870742-9471 close "/admin/database.php" bytes read 183 written 0
+Jan 16 14:09:52 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|183|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 16 14:10:55 10.71.57.0 tmp110870742-9471 open "/admin/database.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:10:55 10.71.57.0 tmp110870742-9471 close "/admin/database.php" bytes read 0 written 186
+Jan 16 14:10:55 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|186|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 16 14:12:26 10.71.57.0 tmp110870742-9471 open "/admin/database.php" flags READ mode 0666
+Jan 16 14:12:26 10.71.57.0 tmp110870742-9471 close "/admin/database.php" bytes read 186 written 0
+Jan 16 14:12:26 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|186|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 16 14:12:37 10.71.57.0 tmp110870742-9471 open "/admin/database.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:12:37 10.71.57.0 tmp110870742-9471 close "/admin/database.php" bytes read 0 written 186
+Jan 16 14:12:37 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|186|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 16 14:12:42 10.71.57.0 tmp110870742-9471 open "/admin/database.php" flags READ mode 0666
+Jan 16 14:12:42 10.71.57.0 tmp110870742-9471 close "/admin/database.php" bytes read 186 written 0
+Jan 16 14:12:42 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|186|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 16 14:13:22 10.71.57.0 tmp110870742-9471 open "/admin/database.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:13:22 10.71.57.0 tmp110870742-9471 close "/admin/database.php" bytes read 0 written 186
+Jan 16 14:13:22 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|186|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 16 14:14:00 10.71.56.0 u817199983 session closed for local user u817199983 from [10.71.56.0]
+Jan 16 14:14:00 10.71.56.0 u817199983 Connection closed by 10.71.56.0 port 15850
+Jan 16 14:29:02 10.71.57.0 tmp110870742-9471 open "/admin_login.php" flags READ mode 0666
+Jan 16 14:29:02 10.71.57.0 tmp110870742-9471 close "/admin_login.php" bytes read 1316 written 0
+Jan 16 14:29:02 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|1316|0|0|0|2f61646d696e5f6c6f67696e2e706870|]
+Jan 16 14:31:01 10.71.57.0 tmp110870742-9471 open "/admin_login.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:31:01 10.71.57.0 tmp110870742-9471 close "/admin_login.php" bytes read 0 written 1271
+Jan 16 14:31:01 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|1271|0|0|0|2f61646d696e5f6c6f67696e2e706870|]
+Jan 16 14:37:42 10.71.57.0 tmp110870742-9471 open "/css/fonts.css" flags READ mode 0666
+Jan 16 14:37:42 10.71.57.0 tmp110870742-9471 close "/css/fonts.css" bytes read 218 written 0
+Jan 16 14:37:42 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|218|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 16 14:38:18 10.71.57.0 tmp110870742-9471 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:38:18 10.71.57.0 tmp110870742-9471 close "/css/fonts.css" bytes read 0 written 211
+Jan 16 14:38:18 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|211|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 16 14:38:28 10.71.57.0 tmp110870742-9471 open "/css/fonts.css" flags READ mode 0666
+Jan 16 14:38:28 10.71.57.0 tmp110870742-9471 close "/css/fonts.css" bytes read 211 written 0
+Jan 16 14:38:28 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|211|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 16 14:38:38 10.71.57.0 tmp110870742-9471 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:38:38 10.71.57.0 tmp110870742-9471 close "/css/fonts.css" bytes read 0 written 214
+Jan 16 14:38:38 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|214|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 16 14:52:29 10.71.57.0 tmp110870742-9471 open "/css/fonts.css" flags READ mode 0666
+Jan 16 14:52:29 10.71.57.0 tmp110870742-9471 close "/css/fonts.css" bytes read 214 written 0
+Jan 16 14:52:29 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|214|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 16 14:52:42 10.71.57.0 tmp110870742-9471 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:52:42 10.71.57.0 tmp110870742-9471 close "/css/fonts.css" bytes read 0 written 210
+Jan 16 14:52:42 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|210|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 16 14:52:54 10.71.57.0 tmp110870742-9471 open "/css/index.css" flags READ mode 0666
+Jan 16 14:52:54 10.71.57.0 tmp110870742-9471 close "/css/index.css" bytes read 10343 written 0
+Jan 16 14:52:54 10.71.57.0 tmp110870742-9471 [10.71.57.0|get|0|10343|0|0|0|2f6373732f696e6465782e637373|]
+Jan 16 14:53:30 10.71.57.0 tmp110870742-9471 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 14:53:30 10.71.57.0 tmp110870742-9471 close "/css/index.css" bytes read 0 written 9849
+Jan 16 14:53:30 10.71.57.0 tmp110870742-9471 [10.71.57.0|put|0|9849|0|0|0|2f6373732f696e6465782e637373|]
+Jan 16 15:13:34 10.71.57.0 tmp110870742-434 Connection from 10.71.57.0 port 12342 on 82.165.88.240 port 22
+Jan 16 15:13:34 10.71.57.0 tmp110870742-434 Accepted password for tmp110870742-434 from 10.71.57.0 port 12342 ssh2
+Jan 16 15:13:35 10.71.57.0 tmp110870742-434 Starting session: subsystem 'sftp' for tmp110870742-434 from 10.71.57.0 port 12342 id 0
+Jan 16 15:13:35 10.71.57.0 tmp110870742-434 session opened for local user tmp110870742-434 from [10.71.57.0]
+Jan 16 15:13:45 10.71.57.0 tmp110870742-434 open "/index.html" flags READ mode 0666
+Jan 16 15:13:45 10.71.57.0 tmp110870742-434 close "/index.html" bytes read 22349 written 0
+Jan 16 15:13:45 10.71.57.0 tmp110870742-434 [10.71.57.0|get|0|22349|0|0|0|2f696e6465782e68746d6c|]
+Jan 16 15:13:47 10.71.57.0 tmp110870742-3952 Connection from 10.71.57.0 port 12350 on 82.165.88.240 port 22
+Jan 16 15:13:47 10.71.57.0 tmp110870742-3952 Accepted password for tmp110870742-3952 from 10.71.57.0 port 12350 ssh2
+Jan 16 15:13:57 10.71.57.0 tmp110870742-434 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 16 15:13:57 10.71.57.0 tmp110870742-434 close "/index.html" bytes read 0 written 22560
+Jan 16 15:13:57 10.71.57.0 tmp110870742-434 [10.71.57.0|put|0|22560|0|0|0|2f696e6465782e68746d6c|]
+Jan 16 15:54:21 10.71.57.0 tmp110870742-9471 session closed for local user tmp110870742-9471 from [10.71.57.0]
+Jan 16 15:54:21 10.71.57.0 tmp110870742-3954 Connection closed by 10.71.57.0 port 46052
+Jan 16 15:54:21 10.71.57.0 tmp110870742-9471 Connection closed by 10.71.57.0 port 46006
+Jan 16 16:18:21 10.71.57.0 tmp110870742-434 session closed for local user tmp110870742-434 from [10.71.57.0]
+Jan 16 16:18:21 10.71.57.0 tmp110870742-434 Connection closed by 10.71.57.0 port 12342
+Jan 16 16:18:21 10.71.57.0 tmp110870742-3952 Connection closed by 10.71.57.0 port 12350
+Jan 17 09:32:09 10.71.57.0 tmp110870742-2525 Connection from 10.71.57.0 port 45566 on 82.165.88.240 port 22
+Jan 17 09:32:09 10.71.57.0 tmp110870742-2525 Accepted password for tmp110870742-2525 from 10.71.57.0 port 45566 ssh2
+Jan 17 09:32:09 10.71.57.0 tmp110870742-2525 Starting session: subsystem 'sftp' for tmp110870742-2525 from 10.71.57.0 port 45566 id 0
+Jan 17 09:32:09 10.71.57.0 tmp110870742-2525 session opened for local user tmp110870742-2525 from [10.71.57.0]
+Jan 17 09:32:22 10.71.57.0 tmp110870742-2525 open "/css/fonts.css" flags READ mode 0666
+Jan 17 09:32:22 10.71.57.0 tmp110870742-2525 close "/css/fonts.css" bytes read 210 written 0
+Jan 17 09:32:22 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|210|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 09:32:25 10.71.57.0 tmp110870742-2418 Connection from 10.71.57.0 port 45596 on 82.165.88.240 port 22
+Jan 17 09:32:25 10.71.57.0 tmp110870742-2418 Accepted password for tmp110870742-2418 from 10.71.57.0 port 45596 ssh2
+Jan 17 09:33:00 10.71.57.0 tmp110870742-2525 open "/admin/database.php" flags READ mode 0666
+Jan 17 09:33:00 10.71.57.0 tmp110870742-2525 close "/admin/database.php" bytes read 186 written 0
+Jan 17 09:33:00 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|186|0|0|0|2f61646d696e2f64617461626173652e706870|]
+Jan 17 09:33:03 10.71.57.0 tmp110870742-2525 open "/css/fonts.css" flags READ mode 0666
+Jan 17 09:33:03 10.71.57.0 tmp110870742-2525 close "/css/fonts.css" bytes read 210 written 0
+Jan 17 09:33:03 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|210|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 09:34:06 10.71.57.0 tmp110870742-2525 open "/index.css" flags READ mode 0666
+Jan 17 09:34:06 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 8424 written 0
+Jan 17 09:34:06 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|8424|0|0|0|2f696e6465782e637373|]
+Jan 17 09:34:24 10.71.57.0 tmp110870742-2525 open "/index.css" flags READ mode 0666
+Jan 17 09:34:24 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 8424 written 0
+Jan 17 09:34:24 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|8424|0|0|0|2f696e6465782e637373|]
+Jan 17 09:34:46 10.71.57.0 tmp110870742-2525 open "/css/main.css" flags READ mode 0666
+Jan 17 09:34:46 10.71.57.0 tmp110870742-2525 close "/css/main.css" bytes read 438 written 0
+Jan 17 09:34:46 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|438|0|0|0|2f6373732f6d61696e2e637373|]
+Jan 17 09:36:31 10.71.57.0 tmp110870742-2525 open "/index.css" flags READ mode 0666
+Jan 17 09:36:31 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 8424 written 0
+Jan 17 09:36:31 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|8424|0|0|0|2f696e6465782e637373|]
+Jan 17 09:37:06 10.71.57.0 tmp110870742-2525 open "/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:37:06 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 0 written 8013
+Jan 17 09:37:06 10.71.57.0 tmp110870742-2525 [10.71.57.0|put|0|8013|0|0|0|2f696e6465782e637373|]
+Jan 17 09:38:10 10.71.57.0 tmp110870742-2525 open "/index.css" flags READ mode 0666
+Jan 17 09:38:10 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 8013 written 0
+Jan 17 09:38:10 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|8013|0|0|0|2f696e6465782e637373|]
+Jan 17 09:38:15 10.71.57.0 tmp110870742-2525 open "/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:38:15 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 0 written 8009
+Jan 17 09:38:15 10.71.57.0 tmp110870742-2525 [10.71.57.0|put|0|8009|0|0|0|2f696e6465782e637373|]
+Jan 17 09:39:54 10.71.57.0 tmp110870742-2525 open "/index.css" flags READ mode 0666
+Jan 17 09:39:54 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 8009 written 0
+Jan 17 09:39:54 10.71.57.0 tmp110870742-2525 [10.71.57.0|get|0|8009|0|0|0|2f696e6465782e637373|]
+Jan 17 09:39:58 10.71.57.0 tmp110870742-2525 open "/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:39:58 10.71.57.0 tmp110870742-2525 close "/index.css" bytes read 0 written 8009
+Jan 17 09:39:58 10.71.57.0 tmp110870742-2525 [10.71.57.0|put|0|8009|0|0|0|2f696e6465782e637373|]
+Jan 17 09:42:05 10.71.57.0 tmp110870742-3093 Connection from 10.71.57.0 port 54566 on 82.165.88.240 port 22
+Jan 17 09:42:05 10.71.57.0 tmp110870742-3093 Accepted password for tmp110870742-3093 from 10.71.57.0 port 54566 ssh2
+Jan 17 09:42:05 10.71.57.0 tmp110870742-3093 Starting session: subsystem 'sftp' for tmp110870742-3093 from 10.71.57.0 port 54566 id 0
+Jan 17 09:42:05 10.71.57.0 tmp110870742-3093 session opened for local user tmp110870742-3093 from [10.71.57.0]
+Jan 17 09:42:23 10.71.57.0 tmp110870742-318 Connection from 10.71.57.0 port 54620 on 82.165.88.240 port 22
+Jan 17 09:42:23 10.71.57.0 tmp110870742-318 Accepted password for tmp110870742-318 from 10.71.57.0 port 54620 ssh2
+Jan 17 09:42:27 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags READ mode 0666
+Jan 17 09:42:27 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 9849 written 0
+Jan 17 09:42:27 10.71.57.0 tmp110870742-3093 [10.71.57.0|get|0|9849|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:42:33 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:42:33 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 0 written 9845
+Jan 17 09:42:33 10.71.57.0 tmp110870742-3093 [10.71.57.0|put|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:42:43 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags READ mode 0666
+Jan 17 09:42:43 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 9845 written 0
+Jan 17 09:42:43 10.71.57.0 tmp110870742-3093 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:42:45 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:42:45 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 0 written 9845
+Jan 17 09:42:45 10.71.57.0 tmp110870742-3093 [10.71.57.0|put|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:43:11 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags READ mode 0666
+Jan 17 09:43:11 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 9845 written 0
+Jan 17 09:43:11 10.71.57.0 tmp110870742-3093 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:43:21 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:43:21 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 0 written 9845
+Jan 17 09:43:21 10.71.57.0 tmp110870742-3093 [10.71.57.0|put|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:43:53 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags READ mode 0666
+Jan 17 09:43:53 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 9845 written 0
+Jan 17 09:43:53 10.71.57.0 tmp110870742-3093 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:43:56 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:43:56 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 0 written 9845
+Jan 17 09:43:56 10.71.57.0 tmp110870742-3093 [10.71.57.0|put|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:45:45 10.71.57.0 tmp110870742-3093 open "/css/index.css" flags READ mode 0666
+Jan 17 09:45:45 10.71.57.0 tmp110870742-3093 close "/css/index.css" bytes read 9845 written 0
+Jan 17 09:45:45 10.71.57.0 tmp110870742-3093 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 09:46:08 10.71.57.0 tmp110870742-4441 Connection from 10.71.57.0 port 62490 on 82.165.88.240 port 22
+Jan 17 09:46:08 10.71.57.0 tmp110870742-4441 Accepted password for tmp110870742-4441 from 10.71.57.0 port 62490 ssh2
+Jan 17 09:46:08 10.71.57.0 tmp110870742-4441 Starting session: subsystem 'sftp' for tmp110870742-4441 from 10.71.57.0 port 62490 id 0
+Jan 17 09:46:08 10.71.57.0 tmp110870742-4441 session opened for local user tmp110870742-4441 from [10.71.57.0]
+Jan 17 09:46:49 10.71.57.0 tmp110870742-4441 open "/css/fonts.css" flags READ mode 0666
+Jan 17 09:46:49 10.71.57.0 tmp110870742-4441 close "/css/fonts.css" bytes read 210 written 0
+Jan 17 09:46:49 10.71.57.0 tmp110870742-4441 [10.71.57.0|get|0|210|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 09:46:51 10.71.57.0 tmp110870742-5709 Connection from 10.71.57.0 port 62558 on 82.165.88.240 port 22
+Jan 17 09:46:51 10.71.57.0 tmp110870742-5709 Accepted password for tmp110870742-5709 from 10.71.57.0 port 62558 ssh2
+Jan 17 09:46:58 10.71.57.0 tmp110870742-4441 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:46:58 10.71.57.0 tmp110870742-4441 close "/css/fonts.css" bytes read 0 written 212
+Jan 17 09:46:58 10.71.57.0 tmp110870742-4441 [10.71.57.0|put|0|212|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 09:49:54 10.71.57.0 tmp110870742-6995 Connection from 10.71.57.0 port 46240 on 82.165.88.240 port 22
+Jan 17 09:49:54 10.71.57.0 tmp110870742-6995 Accepted password for tmp110870742-6995 from 10.71.57.0 port 46240 ssh2
+Jan 17 09:49:54 10.71.57.0 tmp110870742-6995 Starting session: subsystem 'sftp' for tmp110870742-6995 from 10.71.57.0 port 46240 id 0
+Jan 17 09:49:54 10.71.57.0 tmp110870742-6995 session opened for local user tmp110870742-6995 from [10.71.57.0]
+Jan 17 09:49:54 10.71.57.0 tmp110870742-6995 open "/css/main.css" flags READ mode 0666
+Jan 17 09:49:54 10.71.57.0 tmp110870742-6995 close "/css/main.css" bytes read 438 written 0
+Jan 17 09:49:54 10.71.57.0 tmp110870742-6995 [10.71.57.0|get|0|438|0|0|0|2f6373732f6d61696e2e637373|]
+Jan 17 09:49:57 10.71.57.0 tmp110870742-6971 Connection from 10.71.57.0 port 46272 on 82.165.88.240 port 22
+Jan 17 09:49:57 10.71.57.0 tmp110870742-6971 Accepted password for tmp110870742-6971 from 10.71.57.0 port 46272 ssh2
+Jan 17 09:50:02 10.71.57.0 tmp110870742-6995 open "/css/main.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:50:02 10.71.57.0 tmp110870742-6995 close "/css/main.css" bytes read 0 written 444
+Jan 17 09:50:02 10.71.57.0 tmp110870742-6995 [10.71.57.0|put|0|444|0|0|0|2f6373732f6d61696e2e637373|]
+Jan 17 09:50:02 10.71.57.0 tmp110870742-6995 session closed for local user tmp110870742-6995 from [10.71.57.0]
+Jan 17 09:50:02 10.71.57.0 tmp110870742-6995 Connection closed by 10.71.57.0 port 46240
+Jan 17 09:50:02 10.71.57.0 tmp110870742-6971 Connection closed by 10.71.57.0 port 46272
+Jan 17 09:50:05 10.71.57.0 tmp110870742-8651 Connection from 10.71.57.0 port 46358 on 82.165.88.240 port 22
+Jan 17 09:50:05 10.71.57.0 tmp110870742-8651 Accepted password for tmp110870742-8651 from 10.71.57.0 port 46358 ssh2
+Jan 17 09:50:05 10.71.57.0 tmp110870742-8651 Starting session: subsystem 'sftp' for tmp110870742-8651 from 10.71.57.0 port 46358 id 0
+Jan 17 09:50:05 10.71.57.0 tmp110870742-8651 session opened for local user tmp110870742-8651 from [10.71.57.0]
+Jan 17 09:59:14 10.71.57.0 tmp110870742-8651 open "/index.html" flags READ mode 0666
+Jan 17 09:59:14 10.71.57.0 tmp110870742-8651 close "/index.html" bytes read 22560 written 0
+Jan 17 09:59:14 10.71.57.0 tmp110870742-8651 [10.71.57.0|get|0|22560|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 09:59:17 10.71.57.0 tmp110870742-6889 Connection from 10.71.57.0 port 52458 on 82.165.88.240 port 22
+Jan 17 09:59:17 10.71.57.0 tmp110870742-6889 Accepted password for tmp110870742-6889 from 10.71.57.0 port 52458 ssh2
+Jan 17 09:59:56 10.71.57.0 tmp110870742-8651 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 09:59:56 10.71.57.0 tmp110870742-8651 close "/index.html" bytes read 0 written 22565
+Jan 17 09:59:56 10.71.57.0 tmp110870742-8651 [10.71.57.0|put|0|22565|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:00:52 10.71.57.0 tmp110870742-8651 open "/index.html" flags READ mode 0666
+Jan 17 10:00:52 10.71.57.0 tmp110870742-8651 close "/index.html" bytes read 22565 written 0
+Jan 17 10:00:52 10.71.57.0 tmp110870742-8651 [10.71.57.0|get|0|22565|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:01:09 10.71.57.0 tmp110870742-8651 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:01:09 10.71.57.0 tmp110870742-8651 close "/index.html" bytes read 0 written 22566
+Jan 17 10:01:09 10.71.57.0 tmp110870742-8651 [10.71.57.0|put|0|22566|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:05:07 10.71.57.0 tmp110870742-8651 open "/index.js" flags READ mode 0666
+Jan 17 10:05:07 10.71.57.0 tmp110870742-8651 close "/index.js" bytes read 330 written 0
+Jan 17 10:05:07 10.71.57.0 tmp110870742-8651 [10.71.57.0|get|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 17 10:05:22 10.71.57.0 tmp110870742-8651 open "/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:05:22 10.71.57.0 tmp110870742-8651 close "/index.js" bytes read 0 written 330
+Jan 17 10:05:22 10.71.57.0 tmp110870742-8651 [10.71.57.0|put|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 17 10:05:28 10.71.57.0 tmp110870742-8651 open "/index.js" flags READ mode 0666
+Jan 17 10:05:28 10.71.57.0 tmp110870742-8651 close "/index.js" bytes read 330 written 0
+Jan 17 10:05:28 10.71.57.0 tmp110870742-8651 [10.71.57.0|get|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 17 10:05:31 10.71.57.0 tmp110870742-8651 open "/index.html" flags READ mode 0666
+Jan 17 10:05:31 10.71.57.0 tmp110870742-8651 close "/index.html" bytes read 22566 written 0
+Jan 17 10:05:31 10.71.57.0 tmp110870742-8651 [10.71.57.0|get|0|22566|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:07:04 10.71.57.0 tmp110870742-8651 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:07:04 10.71.57.0 tmp110870742-8651 close "/index.html" bytes read 0 written 22583
+Jan 17 10:07:04 10.71.57.0 tmp110870742-8651 [10.71.57.0|put|0|22583|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:07:23 10.71.57.0 tmp110870742-8651 open "/index.js" flags READ mode 0666
+Jan 17 10:07:23 10.71.57.0 tmp110870742-8651 close "/index.js" bytes read 330 written 0
+Jan 17 10:07:23 10.71.57.0 tmp110870742-8651 [10.71.57.0|get|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 17 10:07:25 10.71.57.0 tmp110870742-8651 open "/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:07:25 10.71.57.0 tmp110870742-8651 close "/index.js" bytes read 0 written 330
+Jan 17 10:07:25 10.71.57.0 tmp110870742-8651 [10.71.57.0|put|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 17 06:48:34 10.71.57.0 tmp110870742-370 Connection from 10.71.57.108 port 60698 on 82.165.88.240 port 22
+Jan 17 10:09:30 10.71.57.0 tmp110870742-370 Connection from 10.71.57.0 port 36998 on 82.165.88.240 port 22
+Jan 17 10:09:30 10.71.57.0 tmp110870742-370 Accepted password for tmp110870742-370 from 10.71.57.0 port 36998 ssh2
+Jan 17 10:09:30 10.71.57.0 tmp110870742-370 Starting session: subsystem 'sftp' for tmp110870742-370 from 10.71.57.0 port 36998 id 0
+Jan 17 10:09:30 10.71.57.0 tmp110870742-370 session opened for local user tmp110870742-370 from [10.71.57.0]
+Jan 17 10:09:36 10.71.57.0 tmp110870742-370 open "/main.js" flags READ mode 0666
+Jan 17 10:09:36 10.71.57.0 tmp110870742-370 close "/main.js" bytes read 0 written 0
+Jan 17 10:09:36 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|0|0|0|0|2f6d61696e2e6a73|]
+Jan 17 10:09:38 10.71.57.0 tmp110870742-7991 Connection from 10.71.57.0 port 37008 on 82.165.88.240 port 22
+Jan 17 10:09:38 10.71.57.0 tmp110870742-7991 Accepted password for tmp110870742-7991 from 10.71.57.0 port 37008 ssh2
+Jan 17 10:09:42 10.71.57.0 tmp110870742-370 open "/index.js" flags READ mode 0666
+Jan 17 10:09:42 10.71.57.0 tmp110870742-370 close "/index.js" bytes read 330 written 0
+Jan 17 10:09:42 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 17 10:09:51 10.71.57.0 tmp110870742-370 open "/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:09:51 10.71.57.0 tmp110870742-370 close "/index.js" bytes read 0 written 330
+Jan 17 10:09:51 10.71.57.0 tmp110870742-370 [10.71.57.0|put|0|330|0|0|0|2f696e6465782e6a73|]
+Jan 17 10:10:18 10.71.57.0 tmp110870742-370 open "/index.html" flags READ mode 0666
+Jan 17 10:10:18 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 22583 written 0
+Jan 17 10:10:18 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|22583|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:10:57 10.71.57.0 tmp110870742-370 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:10:57 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 0 written 22591
+Jan 17 10:10:57 10.71.57.0 tmp110870742-370 [10.71.57.0|put|0|22591|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:11:45 10.71.57.0 tmp110870742-370 open "/index.html" flags READ mode 0666
+Jan 17 10:11:45 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 22591 written 0
+Jan 17 10:11:45 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|22591|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:12:38 10.71.57.0 tmp110870742-370 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:12:38 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 0 written 22597
+Jan 17 10:12:38 10.71.57.0 tmp110870742-370 [10.71.57.0|put|0|22597|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:13:18 10.71.57.0 tmp110870742-370 open "/index.html" flags READ mode 0666
+Jan 17 10:13:18 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 22597 written 0
+Jan 17 10:13:18 10.71.57.0 tmp110870742-370 [10.71.57.0|get|1|22597|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:15:25 10.71.57.0 tmp110870742-370 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:15:25 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 0 written 22427
+Jan 17 10:15:25 10.71.57.0 tmp110870742-370 [10.71.57.0|put|0|22427|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:16:45 10.71.57.0 tmp110870742-370 open "/index.html" flags READ mode 0666
+Jan 17 10:16:45 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 22427 written 0
+Jan 17 10:16:45 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|22427|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:16:58 10.71.57.0 tmp110870742-370 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:16:58 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 0 written 22433
+Jan 17 10:16:58 10.71.57.0 tmp110870742-370 [10.71.57.0|put|0|22433|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:17:29 10.71.57.0 tmp110870742-370 open "/index.html" flags READ mode 0666
+Jan 17 10:17:29 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 22433 written 0
+Jan 17 10:17:29 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|22433|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:17:59 10.71.57.0 tmp110870742-370 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:17:59 10.71.57.0 tmp110870742-370 close "/index.html" bytes read 0 written 22446
+Jan 17 10:17:59 10.71.57.0 tmp110870742-370 [10.71.57.0|put|0|22446|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:21:48 10.71.57.0 tmp110870742-370 open "/js/index.js" flags READ mode 0666
+Jan 17 10:21:48 10.71.57.0 tmp110870742-370 close "/js/index.js" bytes read 334 written 0
+Jan 17 10:21:48 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|334|0|0|0|2f6a732f696e6465782e6a73|]
+Jan 17 10:22:24 10.71.57.0 tmp110870742-370 open "/js/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:22:24 10.71.57.0 tmp110870742-370 close "/js/index.js" bytes read 0 written 332
+Jan 17 10:22:24 10.71.57.0 tmp110870742-370 [10.71.57.0|put|0|332|0|0|0|2f6a732f696e6465782e6a73|]
+Jan 17 10:22:43 10.71.57.0 tmp110870742-370 open "/main.js" flags READ mode 0666
+Jan 17 10:22:43 10.71.57.0 tmp110870742-370 close "/main.js" bytes read 0 written 0
+Jan 17 10:22:43 10.71.57.0 tmp110870742-370 [10.71.57.0|get|0|0|0|0|0|2f6d61696e2e6a73|]
+Jan 17 10:25:05 10.71.57.0 tmp110870742-6981 Connection from 10.71.57.0 port 40144 on 82.165.88.240 port 22
+Jan 17 10:25:05 10.71.57.0 tmp110870742-6981 Accepted password for tmp110870742-6981 from 10.71.57.0 port 40144 ssh2
+Jan 17 10:25:05 10.71.57.0 tmp110870742-6981 Starting session: subsystem 'sftp' for tmp110870742-6981 from 10.71.57.0 port 40144 id 0
+Jan 17 10:25:05 10.71.57.0 tmp110870742-6981 session opened for local user tmp110870742-6981 from [10.71.57.0]
+Jan 17 10:25:12 10.71.57.0 tmp110870742-6981 open "/js/index.js" flags READ mode 0666
+Jan 17 10:25:12 10.71.57.0 tmp110870742-6981 close "/js/index.js" bytes read 332 written 0
+Jan 17 10:25:12 10.71.57.0 tmp110870742-6981 [10.71.57.0|get|0|332|0|0|0|2f6a732f696e6465782e6a73|]
+Jan 17 10:25:14 10.71.57.0 tmp110870742-9998 Connection from 10.71.57.0 port 40168 on 82.165.88.240 port 22
+Jan 17 10:25:14 10.71.57.0 tmp110870742-9998 Accepted password for tmp110870742-9998 from 10.71.57.0 port 40168 ssh2
+Jan 17 10:25:40 10.71.57.0 tmp110870742-6981 open "/js/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:25:40 10.71.57.0 tmp110870742-6981 close "/js/index.js" bytes read 0 written 326
+Jan 17 10:25:40 10.71.57.0 tmp110870742-6981 [10.71.57.0|put|0|326|0|0|0|2f6a732f696e6465782e6a73|]
+Jan 17 10:26:23 10.71.57.0 tmp110870742-6981 open "/js/index.js" flags READ mode 0666
+Jan 17 10:26:23 10.71.57.0 tmp110870742-6981 close "/js/index.js" bytes read 326 written 0
+Jan 17 10:26:23 10.71.57.0 tmp110870742-6981 [10.71.57.0|get|0|326|0|0|0|2f6a732f696e6465782e6a73|]
+Jan 17 10:26:29 10.71.57.0 tmp110870742-6981 open "/js/index.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:26:29 10.71.57.0 tmp110870742-6981 close "/js/index.js" bytes read 0 written 332
+Jan 17 10:26:29 10.71.57.0 tmp110870742-6981 [10.71.57.0|put|0|332|0|0|0|2f6a732f696e6465782e6a73|]
+Jan 17 10:26:35 10.71.57.0 tmp110870742-6981 open "/css/index.css" flags READ mode 0666
+Jan 17 10:26:35 10.71.57.0 tmp110870742-6981 close "/css/index.css" bytes read 9845 written 0
+Jan 17 10:26:35 10.71.57.0 tmp110870742-6981 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 10:27:40 10.71.57.0 tmp110870742-6981 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:27:40 10.71.57.0 tmp110870742-6981 close "/css/index.css" bytes read 0 written 9845
+Jan 17 10:27:40 10.71.57.0 tmp110870742-6981 [10.71.57.0|put|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 10:28:13 10.71.57.0 tmp110870742-865 Connection from 10.71.57.0 port 57332 on 82.165.88.240 port 22
+Jan 17 10:28:13 10.71.57.0 tmp110870742-865 Accepted password for tmp110870742-865 from 10.71.57.0 port 57332 ssh2
+Jan 17 10:28:13 10.71.57.0 tmp110870742-865 Starting session: subsystem 'sftp' for tmp110870742-865 from 10.71.57.0 port 57332 id 0
+Jan 17 10:28:13 10.71.57.0 tmp110870742-865 session opened for local user tmp110870742-865 from [10.71.57.0]
+Jan 17 10:28:13 10.71.57.0 tmp110870742-865 open "/css/index.css" flags READ mode 0666
+Jan 17 10:28:13 10.71.57.0 tmp110870742-865 close "/css/index.css" bytes read 9845 written 0
+Jan 17 10:28:13 10.71.57.0 tmp110870742-865 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 10:28:16 10.71.57.0 tmp110870742-5558 Connection from 10.71.57.0 port 57342 on 82.165.88.240 port 22
+Jan 17 10:28:16 10.71.57.0 tmp110870742-5558 Accepted password for tmp110870742-5558 from 10.71.57.0 port 57342 ssh2
+Jan 17 10:28:33 10.71.57.0 tmp110870742-865 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:28:33 10.71.57.0 tmp110870742-865 close "/css/index.css" bytes read 0 written 9845
+Jan 17 10:28:33 10.71.57.0 tmp110870742-865 [10.71.57.0|put|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 10:28:34 10.71.57.0 tmp110870742-865 session closed for local user tmp110870742-865 from [10.71.57.0]
+Jan 17 10:28:34 10.71.57.0 tmp110870742-865 Connection closed by 10.71.57.0 port 57332
+Jan 17 10:28:34 10.71.57.0 tmp110870742-5558 Connection closed by 10.71.57.0 port 57342
+Jan 17 10:28:37 10.71.57.0 tmp110870742-8477 Connection from 10.71.57.0 port 57400 on 82.165.88.240 port 22
+Jan 17 10:28:37 10.71.57.0 tmp110870742-8477 Accepted password for tmp110870742-8477 from 10.71.57.0 port 57400 ssh2
+Jan 17 10:28:37 10.71.57.0 tmp110870742-8477 Starting session: subsystem 'sftp' for tmp110870742-8477 from 10.71.57.0 port 57400 id 0
+Jan 17 10:28:37 10.71.57.0 tmp110870742-8477 session opened for local user tmp110870742-8477 from [10.71.57.0]
+Jan 17 10:28:51 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 10:28:51 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9845 written 0
+Jan 17 10:28:51 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 10:28:53 10.71.57.0 tmp110870742-6537 Connection from 10.71.57.0 port 57426 on 82.165.88.240 port 22
+Jan 17 10:28:53 10.71.57.0 tmp110870742-6537 Accepted password for tmp110870742-6537 from 10.71.57.0 port 57426 ssh2
+Jan 17 10:30:15 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:30:15 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9845
+Jan 17 10:30:15 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 10:31:34 10.71.57.0 tmp110870742-8477 open "/index.html" flags READ mode 0666
+Jan 17 10:31:34 10.71.57.0 tmp110870742-8477 close "/index.html" bytes read 22446 written 0
+Jan 17 10:31:34 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|22446|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:31:51 10.71.57.0 tmp110870742-8477 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:31:51 10.71.57.0 tmp110870742-8477 close "/index.html" bytes read 0 written 22448
+Jan 17 10:31:51 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|22448|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 10:40:51 10.71.57.0 tmp110870742-2525 session closed for local user tmp110870742-2525 from [10.71.57.0]
+Jan 17 10:40:51 10.71.57.0 tmp110870742-2525 Connection closed by 10.71.57.0 port 45566
+Jan 17 10:40:51 10.71.57.0 tmp110870742-2418 Connection closed by 10.71.57.0 port 45596
+Jan 17 10:46:36 10.71.57.0 tmp110870742-8477 open "/designs.php" flags READ mode 0666
+Jan 17 10:46:36 10.71.57.0 tmp110870742-8477 close "/designs.php" bytes read 1415 written 0
+Jan 17 10:46:36 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|1415|0|0|0|2f64657369676e732e706870|]
+Jan 17 10:46:45 10.71.57.0 tmp110870742-8477 open "/templates/designs_template.php" flags READ mode 0666
+Jan 17 10:46:45 10.71.57.0 tmp110870742-8477 close "/templates/designs_template.php" bytes read 15086 written 0
+Jan 17 10:46:45 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15086|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 17 10:47:36 10.71.57.0 tmp110870742-4441 session closed for local user tmp110870742-4441 from [10.71.57.0]
+Jan 17 10:47:36 10.71.57.0 tmp110870742-4441 Connection closed by 10.71.57.0 port 62490
+Jan 17 10:47:36 10.71.57.0 tmp110870742-5709 Connection closed by 10.71.57.0 port 62558
+Jan 17 10:47:53 10.71.57.0 tmp110870742-8477 open "/templates/designs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:47:53 10.71.57.0 tmp110870742-8477 close "/templates/designs_template.php" bytes read 0 written 15006
+Jan 17 10:47:53 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|15006|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 17 10:48:06 10.71.57.0 tmp110870742-8477 open "/templates/designs_template.php" flags READ mode 0666
+Jan 17 10:48:06 10.71.57.0 tmp110870742-8477 close "/templates/designs_template.php" bytes read 15006 written 0
+Jan 17 10:48:06 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15006|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 17 10:48:16 10.71.57.0 tmp110870742-8477 open "/templates/designs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:48:16 10.71.57.0 tmp110870742-8477 close "/templates/designs_template.php" bytes read 0 written 15005
+Jan 17 10:48:16 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|15005|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 17 10:48:18 10.71.57.0 tmp110870742-8477 open "/templates/webs_template.php" flags READ mode 0666
+Jan 17 10:48:18 10.71.57.0 tmp110870742-8477 close "/templates/webs_template.php" bytes read 14776 written 0
+Jan 17 10:48:18 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|14776|0|0|0|2f74656d706c617465732f776562735f74656d706c6174652e706870|]
+Jan 17 10:49:04 10.71.57.0 tmp110870742-8477 open "/templates/webs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:49:04 10.71.57.0 tmp110870742-8477 close "/templates/webs_template.php" bytes read 0 written 14701
+Jan 17 10:49:04 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|14701|0|0|0|2f74656d706c617465732f776562735f74656d706c6174652e706870|]
+Jan 17 10:49:28 10.71.57.0 tmp110870742-8477 open "/templates/single_work_template.php" flags READ mode 0666
+Jan 17 10:49:28 10.71.57.0 tmp110870742-8477 close "/templates/single_work_template.php" bytes read 15031 written 0
+Jan 17 10:49:28 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15031|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 17 10:50:00 10.71.57.0 tmp110870742-8477 open "/templates/single_work_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:50:00 10.71.57.0 tmp110870742-8477 close "/templates/single_work_template.php" bytes read 0 written 14942
+Jan 17 10:50:00 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|14942|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 17 10:50:11 10.71.57.0 tmp110870742-8477 open "/about_me.html" flags READ mode 0666
+Jan 17 10:50:11 10.71.57.0 tmp110870742-8477 close "/about_me.html" bytes read 15458 written 0
+Jan 17 10:50:11 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15458|0|0|0|2f61626f75745f6d652e68746d6c|]
+Jan 17 10:50:52 10.71.57.0 tmp110870742-8477 open "/about_me.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 10:50:52 10.71.57.0 tmp110870742-8477 close "/about_me.html" bytes read 0 written 15381
+Jan 17 10:50:52 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|15381|0|0|0|2f61626f75745f6d652e68746d6c|]
+Jan 17 11:00:54 10.71.57.0 tmp110870742-8477 open "/single_work.php" flags READ mode 0666
+Jan 17 11:00:54 10.71.57.0 tmp110870742-8477 close "/single_work.php" bytes read 672 written 0
+Jan 17 11:00:54 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|672|0|0|0|2f73696e676c655f776f726b2e706870|]
+Jan 17 11:01:01 10.71.57.0 tmp110870742-8477 open "/single_work.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 11:01:01 10.71.57.0 tmp110870742-8477 close "/single_work.php" bytes read 0 written 675
+Jan 17 11:01:01 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|675|0|0|0|2f73696e676c655f776f726b2e706870|]
+Jan 17 11:01:09 10.71.57.0 tmp110870742-8477 open "/templates/single_work_template.php" flags READ mode 0666
+Jan 17 11:01:09 10.71.57.0 tmp110870742-8477 close "/templates/single_work_template.php" bytes read 14942 written 0
+Jan 17 11:01:09 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|14942|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 17 11:02:01 10.71.57.0 tmp110870742-8477 open "/templates/single_work_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 11:02:01 10.71.57.0 tmp110870742-8477 close "/templates/single_work_template.php" bytes read 0 written 15002
+Jan 17 11:02:01 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|15002|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 17 11:04:46 10.71.57.0 tmp110870742-8477 open "/templates/admin_panel_template.php" flags READ mode 0666
+Jan 17 11:04:46 10.71.57.0 tmp110870742-8477 close "/templates/admin_panel_template.php" bytes read 9108 written 0
+Jan 17 11:04:46 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9108|0|0|0|2f74656d706c617465732f61646d696e5f70616e656c5f74656d706c6174652e706870|]
+Jan 17 11:05:41 10.71.57.0 tmp110870742-8477 open "/templates/admin_panel_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 11:05:41 10.71.57.0 tmp110870742-8477 close "/templates/admin_panel_template.php" bytes read 0 written 9365
+Jan 17 11:05:41 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9365|0|0|0|2f74656d706c617465732f61646d696e5f70616e656c5f74656d706c6174652e706870|]
+Jan 17 11:07:39 10.71.57.0 tmp110870742-8651 session closed for local user tmp110870742-8651 from [10.71.57.0]
+Jan 17 11:07:39 10.71.57.0 tmp110870742-6889 Connection closed by 10.71.57.0 port 52458
+Jan 17 11:07:39 10.71.57.0 tmp110870742-8651 Connection closed by 10.71.57.0 port 46358
+Jan 17 11:08:00 10.71.57.0 tmp110870742-8477 open "/admin_item_add.php" flags READ mode 0666
+Jan 17 11:08:00 10.71.57.0 tmp110870742-8477 close "/admin_item_add.php" bytes read 2128 written 0
+Jan 17 11:08:00 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|2128|0|0|0|2f61646d696e5f6974656d5f6164642e706870|]
+Jan 17 11:08:17 10.71.57.0 tmp110870742-8477 open "/admin_item_add.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 11:08:17 10.71.57.0 tmp110870742-8477 close "/admin_item_add.php" bytes read 0 written 2157
+Jan 17 11:08:17 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|2157|0|0|0|2f61646d696e5f6974656d5f6164642e706870|]
+Jan 17 11:11:24 10.71.57.0 tmp110870742-8477 open "/single_work.php" flags READ mode 0666
+Jan 17 11:11:24 10.71.57.0 tmp110870742-8477 close "/single_work.php" bytes read 675 written 0
+Jan 17 11:11:24 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|675|0|0|0|2f73696e676c655f776f726b2e706870|]
+Jan 17 11:11:49 10.71.57.0 tmp110870742-8477 open "/templates/single_work_template.php" flags READ mode 0666
+Jan 17 11:11:49 10.71.57.0 tmp110870742-8477 close "/templates/single_work_template.php" bytes read 15002 written 0
+Jan 17 11:11:49 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15002|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 17 11:13:26 10.71.57.0 tmp110870742-8477 open "/single_work.php" flags READ mode 0666
+Jan 17 11:13:26 10.71.57.0 tmp110870742-8477 close "/single_work.php" bytes read 675 written 0
+Jan 17 11:13:26 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|675|0|0|0|2f73696e676c655f776f726b2e706870|]
+Jan 17 11:13:30 10.71.57.0 tmp110870742-8477 open "/single_work.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 11:13:30 10.71.57.0 tmp110870742-8477 close "/single_work.php" bytes read 0 written 675
+Jan 17 11:13:30 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|675|0|0|0|2f73696e676c655f776f726b2e706870|]
+Jan 17 11:22:53 10.71.57.0 tmp110870742-370 session closed for local user tmp110870742-370 from [10.71.57.0]
+Jan 17 11:22:53 10.71.57.0 tmp110870742-370 Connection closed by 10.71.57.0 port 36998
+Jan 17 11:22:53 10.71.57.0 tmp110870742-7991 Connection closed by 10.71.57.0 port 37008
+Jan 17 11:27:42 10.71.57.0 tmp110870742-6981 session closed for local user tmp110870742-6981 from [10.71.57.0]
+Jan 17 11:27:42 10.71.57.0 tmp110870742-6981 Connection closed by 10.71.57.0 port 40144
+Jan 17 11:27:42 10.71.57.0 tmp110870742-9998 Connection closed by 10.71.57.0 port 40168
+Jan 17 11:28:08 10.71.57.0 tmp110870742-8477 open "/admin_panel.js" flags READ mode 0666
+Jan 17 11:28:08 10.71.57.0 tmp110870742-8477 close "/admin_panel.js" bytes read 2453 written 0
+Jan 17 11:28:08 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|2453|0|0|0|2f61646d696e5f70616e656c2e6a73|]
+Jan 17 11:28:14 10.71.57.0 tmp110870742-8477 open "/admin_panel.php" flags READ mode 0666
+Jan 17 11:28:14 10.71.57.0 tmp110870742-8477 close "/admin_panel.php" bytes read 819 written 0
+Jan 17 11:28:14 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|819|0|0|0|2f61646d696e5f70616e656c2e706870|]
+Jan 17 11:28:21 10.71.57.0 tmp110870742-8477 open "/admin_panel.php" flags READ mode 0666
+Jan 17 11:28:21 10.71.57.0 tmp110870742-8477 close "/admin_panel.php" bytes read 819 written 0
+Jan 17 11:28:21 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|819|0|0|0|2f61646d696e5f70616e656c2e706870|]
+Jan 17 11:28:33 10.71.57.0 tmp110870742-8477 open "/admin_item_add.php" flags READ mode 0666
+Jan 17 11:28:33 10.71.57.0 tmp110870742-8477 close "/admin_item_add.php" bytes read 2157 written 0
+Jan 17 11:28:33 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|2157|0|0|0|2f61646d696e5f6974656d5f6164642e706870|]
+Jan 17 11:29:23 10.71.57.0 tmp110870742-8477 open "/admin_item_add.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 11:29:23 10.71.57.0 tmp110870742-8477 close "/admin_item_add.php" bytes read 0 written 2140
+Jan 17 11:29:23 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|2140|0|0|0|2f61646d696e5f6974656d5f6164642e706870|]
+Jan 17 12:45:45 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:45:45 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9845 written 0
+Jan 17 12:45:45 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9845|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:46:10 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:46:10 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 12:46:10 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:48:38 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:48:38 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 12:48:38 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:48:47 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:48:47 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 12:48:47 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:48:58 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:48:58 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 12:48:58 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:49:08 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:49:08 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 12:49:08 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:49:27 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:49:27 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 12:49:27 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:49:45 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:49:45 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 12:49:45 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:51:27 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:51:27 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 12:51:27 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:51:40 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:51:40 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 12:51:40 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:51:58 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:51:58 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 12:51:58 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:52:05 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:52:05 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 12:52:05 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:52:19 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:52:19 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 12:52:19 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:53:06 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:53:06 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9842
+Jan 17 12:53:06 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9842|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:53:43 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 12:53:43 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9842 written 0
+Jan 17 12:53:43 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9842|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:54:07 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:54:07 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 12:54:07 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 12:54:54 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 12:54:54 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 212 written 0
+Jan 17 12:54:54 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|212|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 12:56:02 10.71.57.0 tmp110870742-8477 posix-rename old "/media/fonts/OpenSans-VariableFont_wdth,wght.ttf" new "/media/fonts/OpenSans"
+Jan 17 12:56:02 10.71.57.0 tmp110870742-8477 [10.71.57.0|posix-rename|0|0|0|0|0|2f6d656469612f666f6e74732f4f70656e53616e732d5661726961626c65466f6e745f776474682c776768742e747466|2f6d656469612f666f6e74732f4f70656e53616e73]
+Jan 17 12:56:12 10.71.57.0 tmp110870742-8477 posix-rename old "/media/fonts/OpenSans" new "/media/fonts/OpenSans.ttf"
+Jan 17 12:56:12 10.71.57.0 tmp110870742-8477 [10.71.57.0|posix-rename|0|0|0|0|0|2f6d656469612f666f6e74732f4f70656e53616e73|2f6d656469612f666f6e74732f4f70656e53616e732e747466]
+Jan 17 12:56:48 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 12:56:48 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 212 written 0
+Jan 17 12:56:48 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|212|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 12:56:55 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 12:56:55 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 188
+Jan 17 12:56:55 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|188|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 12:58:32 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 12:58:33 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 188 written 0
+Jan 17 12:58:33 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|188|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:00:06 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:00:06 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 188 written 0
+Jan 17 13:00:06 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|188|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:00:36 10.71.57.0 tmp110870742-8477 open "/media/fonts/OpenSans-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:00:36 10.71.57.0 tmp110870742-8477 close "/media/fonts/OpenSans-Regular.ttf" bytes read 0 written 217360
+Jan 17 13:00:36 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|217360|0|0|0|2f6d656469612f666f6e74732f4f70656e53616e732d526567756c61722e747466|]
+Jan 17 13:00:50 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:00:50 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 188 written 0
+Jan 17 13:00:50 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|188|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:00:55 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:00:55 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 196
+Jan 17 13:00:55 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|196|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:01:33 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:01:33 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 196 written 0
+Jan 17 13:01:33 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|196|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:02:07 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:02:07 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 197
+Jan 17 13:02:07 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|197|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:02:43 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:02:43 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 197 written 0
+Jan 17 13:02:43 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|197|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:10:36 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:10:36 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 194
+Jan 17 13:10:36 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|194|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:11:31 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:11:31 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 194 written 0
+Jan 17 13:11:31 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|194|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:11:35 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:11:35 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 195
+Jan 17 13:11:35 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|195|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:13:07 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:13:07 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 13:13:07 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:13:26 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:13:26 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 195 written 0
+Jan 17 13:13:26 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|195|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:18:38 10.71.57.0 tmp110870742-8477 open "/media/fonts/OpenSans-Regular.ttf" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:18:38 10.71.57.0 tmp110870742-8477 close "/media/fonts/OpenSans-Regular.ttf" bytes read 0 written 96932
+Jan 17 13:18:38 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|96932|0|0|0|2f6d656469612f666f6e74732f4f70656e53616e732d526567756c61722e747466|]
+Jan 17 13:20:20 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:20:20 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 195 written 0
+Jan 17 13:20:20 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|195|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:20:33 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:20:33 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 194
+Jan 17 13:20:33 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|194|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:20:46 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:20:46 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 194 written 0
+Jan 17 13:20:46 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|194|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:21:09 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:21:09 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 195
+Jan 17 13:21:09 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|195|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:21:13 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:21:13 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 195 written 0
+Jan 17 13:21:13 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|195|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:22:40 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:22:40 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 0 written 192
+Jan 17 13:22:40 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|192|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:23:53 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:23:53 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 13:23:53 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:24:04 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:24:04 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9842
+Jan 17 13:24:04 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9842|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:24:23 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:24:23 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9842 written 0
+Jan 17 13:24:23 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9842|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:24:37 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:24:37 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9844
+Jan 17 13:24:37 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:24:44 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:24:44 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9844 written 0
+Jan 17 13:24:44 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9844|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:24:52 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:24:52 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9842
+Jan 17 13:24:52 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9842|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:25:06 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:25:06 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9842 written 0
+Jan 17 13:25:06 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9842|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:25:48 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:25:48 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9840
+Jan 17 13:25:48 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9840|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:26:23 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:26:23 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9840 written 0
+Jan 17 13:26:23 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9840|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:26:54 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:26:54 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9888
+Jan 17 13:26:54 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9888|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:27:00 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:27:00 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9888 written 0
+Jan 17 13:27:00 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9888|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:27:05 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:27:05 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9888
+Jan 17 13:27:05 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9888|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:27:30 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:27:30 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9888 written 0
+Jan 17 13:27:30 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9888|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:27:40 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:27:40 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9892
+Jan 17 13:27:40 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9892|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:27:54 10.71.57.0 tmp110870742-8477 open "/css/fonts.css" flags READ mode 0666
+Jan 17 13:27:54 10.71.57.0 tmp110870742-8477 close "/css/fonts.css" bytes read 192 written 0
+Jan 17 13:27:54 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|192|0|0|0|2f6373732f666f6e74732e637373|]
+Jan 17 13:27:56 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:27:56 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9892 written 0
+Jan 17 13:27:56 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9892|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:30:46 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:30:46 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9913
+Jan 17 13:30:46 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9913|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:31:21 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 13:31:21 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9913 written 0
+Jan 17 13:31:21 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9913|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:31:32 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:31:32 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9912
+Jan 17 13:31:32 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9912|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 13:34:02 10.71.57.0 tmp110870742-8477 open "/css/single.css" flags READ mode 0666
+Jan 17 13:34:02 10.71.57.0 tmp110870742-8477 close "/css/single.css" bytes read 2935 written 0
+Jan 17 13:34:02 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|2935|0|0|0|2f6373732f73696e676c652e637373|]
+Jan 17 13:34:11 10.71.57.0 tmp110870742-8477 open "/css/single.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:34:11 10.71.57.0 tmp110870742-8477 close "/css/single.css" bytes read 0 written 2778
+Jan 17 13:34:11 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|2778|0|0|0|2f6373732f73696e676c652e637373|]
+Jan 17 13:34:40 10.71.57.0 tmp110870742-8477 open "/css/single.css" flags READ mode 0666
+Jan 17 13:34:40 10.71.57.0 tmp110870742-8477 close "/css/single.css" bytes read 2778 written 0
+Jan 17 13:34:40 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|2778|0|0|0|2f6373732f73696e676c652e637373|]
+Jan 17 13:34:44 10.71.57.0 tmp110870742-8477 open "/css/single.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:34:44 10.71.57.0 tmp110870742-8477 close "/css/single.css" bytes read 0 written 2778
+Jan 17 13:34:44 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|2778|0|0|0|2f6373732f73696e676c652e637373|]
+Jan 17 13:39:41 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:39:41 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 933 written 0
+Jan 17 13:39:41 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|933|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:41:21 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:41:21 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 846
+Jan 17 13:41:21 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|846|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:42:32 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:42:32 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 846 written 0
+Jan 17 13:42:32 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|846|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:44:40 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:44:40 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 887
+Jan 17 13:44:40 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|887|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:46:01 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:46:01 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 887 written 0
+Jan 17 13:46:01 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|887|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:46:36 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:46:36 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 908
+Jan 17 13:46:36 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|908|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:47:27 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:47:27 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 908 written 0
+Jan 17 13:47:27 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|908|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:48:18 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:48:18 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 921
+Jan 17 13:48:18 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|921|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:48:58 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:48:58 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 921 written 0
+Jan 17 13:48:58 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|921|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:49:45 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:49:45 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 907
+Jan 17 13:49:45 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|907|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:50:37 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:50:37 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 907 written 0
+Jan 17 13:50:37 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|907|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:53:21 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:53:21 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 937
+Jan 17 13:53:21 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|937|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:55:11 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:55:11 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 937 written 0
+Jan 17 13:55:11 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|937|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:55:18 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:55:18 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 910
+Jan 17 13:55:18 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|910|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:55:26 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:55:26 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 910 written 0
+Jan 17 13:55:26 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|910|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:55:33 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:55:33 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 908
+Jan 17 13:55:33 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|908|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:56:19 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:56:19 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 908 written 0
+Jan 17 13:56:19 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|908|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:56:48 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:56:48 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 931
+Jan 17 13:56:48 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|931|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:57:11 10.71.57.0 tmp110870742-8477 open "/index.html" flags READ mode 0666
+Jan 17 13:57:11 10.71.57.0 tmp110870742-8477 close "/index.html" bytes read 22448 written 0
+Jan 17 13:57:11 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|22448|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 13:57:20 10.71.57.0 tmp110870742-8477 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:57:20 10.71.57.0 tmp110870742-8477 close "/index.html" bytes read 0 written 22452
+Jan 17 13:57:20 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|22452|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 13:57:29 10.71.57.0 tmp110870742-8477 open "/email.php" flags READ mode 0666
+Jan 17 13:57:29 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 931 written 0
+Jan 17 13:57:29 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|931|0|0|0|2f656d61696c2e706870|]
+Jan 17 13:57:36 10.71.57.0 tmp110870742-8477 open "/email.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 13:57:36 10.71.57.0 tmp110870742-8477 close "/email.php" bytes read 0 written 902
+Jan 17 13:57:36 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|902|0|0|0|2f656d61696c2e706870|]
+Jan 17 14:06:18 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 14:06:18 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9912 written 0
+Jan 17 14:06:18 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9912|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 14:07:18 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:07:18 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9912
+Jan 17 14:07:18 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9912|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 14:08:09 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags READ mode 0666
+Jan 17 14:08:09 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 9912 written 0
+Jan 17 14:08:09 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9912|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 14:08:51 10.71.57.0 tmp110870742-8477 open "/css/index.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:08:51 10.71.57.0 tmp110870742-8477 close "/css/index.css" bytes read 0 written 9956
+Jan 17 14:08:51 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9956|0|0|0|2f6373732f696e6465782e637373|]
+Jan 17 14:10:03 10.71.57.0 tmp110870742-8477 open "/about_me.html" flags READ mode 0666
+Jan 17 14:10:03 10.71.57.0 tmp110870742-8477 close "/about_me.html" bytes read 15381 written 0
+Jan 17 14:10:03 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15381|0|0|0|2f61626f75745f6d652e68746d6c|]
+Jan 17 14:10:34 10.71.57.0 tmp110870742-8477 open "/about_me.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:10:34 10.71.57.0 tmp110870742-8477 close "/about_me.html" bytes read 0 written 14620
+Jan 17 14:10:34 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|14620|0|0|0|2f61626f75745f6d652e68746d6c|]
+Jan 17 14:11:15 10.71.57.0 tmp110870742-8477 open "/css/about_me.css" flags READ mode 0666
+Jan 17 14:11:15 10.71.57.0 tmp110870742-8477 close "/css/about_me.css" bytes read 1950 written 0
+Jan 17 14:11:15 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|1950|0|0|0|2f6373732f61626f75745f6d652e637373|]
+Jan 17 14:11:37 10.71.57.0 tmp110870742-8477 open "/css/about_me.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:11:37 10.71.57.0 tmp110870742-8477 close "/css/about_me.css" bytes read 0 written 1854
+Jan 17 14:11:37 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|1854|0|0|0|2f6373732f61626f75745f6d652e637373|]
+Jan 17 14:12:57 10.71.57.0 tmp110870742-8477 open "/css/about_me.css" flags READ mode 0666
+Jan 17 14:12:57 10.71.57.0 tmp110870742-8477 close "/css/about_me.css" bytes read 1854 written 0
+Jan 17 14:12:57 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|1854|0|0|0|2f6373732f61626f75745f6d652e637373|]
+Jan 17 14:13:23 10.71.57.0 tmp110870742-8477 open "/css/about_me.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:13:23 10.71.57.0 tmp110870742-8477 close "/css/about_me.css" bytes read 0 written 1877
+Jan 17 14:13:23 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|1877|0|0|0|2f6373732f61626f75745f6d652e637373|]
+Jan 17 14:17:19 10.71.57.0 tmp110870742-8477 open "/index.html" flags READ mode 0666
+Jan 17 14:17:19 10.71.57.0 tmp110870742-8477 close "/index.html" bytes read 22452 written 0
+Jan 17 14:17:19 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|22452|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 14:17:23 10.71.57.0 tmp110870742-8477 open "/index.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:17:23 10.71.57.0 tmp110870742-8477 close "/index.html" bytes read 0 written 22452
+Jan 17 14:17:23 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|22452|0|0|0|2f696e6465782e68746d6c|]
+Jan 17 14:17:26 10.71.57.0 tmp110870742-8477 open "/about_me.html" flags READ mode 0666
+Jan 17 14:17:26 10.71.57.0 tmp110870742-8477 close "/about_me.html" bytes read 14620 written 0
+Jan 17 14:17:26 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|14620|0|0|0|2f61626f75745f6d652e68746d6c|]
+Jan 17 14:17:29 10.71.57.0 tmp110870742-8477 open "/about_me.html" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:17:29 10.71.57.0 tmp110870742-8477 close "/about_me.html" bytes read 0 written 14620
+Jan 17 14:17:29 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|14620|0|0|0|2f61626f75745f6d652e68746d6c|]
+Jan 17 14:17:32 10.71.57.0 tmp110870742-8477 open "/admin_call_item_edit.php" flags READ mode 0666
+Jan 17 14:17:32 10.71.57.0 tmp110870742-8477 close "/admin_call_item_edit.php" bytes read 757 written 0
+Jan 17 14:17:32 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|757|0|0|0|2f61646d696e5f63616c6c5f6974656d5f656469742e706870|]
+Jan 17 14:17:42 10.71.57.0 tmp110870742-8477 open "/webs.php" flags READ mode 0666
+Jan 17 14:17:42 10.71.57.0 tmp110870742-8477 close "/webs.php" bytes read 628 written 0
+Jan 17 14:17:42 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|628|0|0|0|2f776562732e706870|]
+Jan 17 14:17:48 10.71.57.0 tmp110870742-8477 open "/templates/admin_login_template.php" flags READ mode 0666
+Jan 17 14:17:48 10.71.57.0 tmp110870742-8477 close "/templates/admin_login_template.php" bytes read 1143 written 0
+Jan 17 14:17:48 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|1143|0|0|0|2f74656d706c617465732f61646d696e5f6c6f67696e5f74656d706c6174652e706870|]
+Jan 17 14:17:51 10.71.57.0 tmp110870742-8477 open "/templates/admin_login_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:17:51 10.71.57.0 tmp110870742-8477 close "/templates/admin_login_template.php" bytes read 0 written 1112
+Jan 17 14:17:51 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|1112|0|0|0|2f74656d706c617465732f61646d696e5f6c6f67696e5f74656d706c6174652e706870|]
+Jan 17 14:17:53 10.71.57.0 tmp110870742-8477 open "/templates/admin_panel_template.php" flags READ mode 0666
+Jan 17 14:17:53 10.71.57.0 tmp110870742-8477 close "/templates/admin_panel_template.php" bytes read 9365 written 0
+Jan 17 14:17:53 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9365|0|0|0|2f74656d706c617465732f61646d696e5f70616e656c5f74656d706c6174652e706870|]
+Jan 17 14:17:56 10.71.57.0 tmp110870742-8477 open "/templates/admin_panel_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:17:56 10.71.57.0 tmp110870742-8477 close "/templates/admin_panel_template.php" bytes read 0 written 9365
+Jan 17 14:17:56 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|9365|0|0|0|2f74656d706c617465732f61646d696e5f70616e656c5f74656d706c6174652e706870|]
+Jan 17 14:17:58 10.71.57.0 tmp110870742-8477 open "/templates/designs_template.php" flags READ mode 0666
+Jan 17 14:17:58 10.71.57.0 tmp110870742-8477 close "/templates/designs_template.php" bytes read 15005 written 0
+Jan 17 14:17:58 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15005|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 17 14:18:01 10.71.57.0 tmp110870742-8477 open "/templates/designs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:18:01 10.71.57.0 tmp110870742-8477 close "/templates/designs_template.php" bytes read 0 written 15005
+Jan 17 14:18:01 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|15005|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 17 14:18:15 10.71.57.0 tmp110870742-8477 open "/templates/single_work_template.php" flags READ mode 0666
+Jan 17 14:18:15 10.71.57.0 tmp110870742-8477 close "/templates/single_work_template.php" bytes read 15002 written 0
+Jan 17 14:18:15 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15002|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 17 14:18:19 10.71.57.0 tmp110870742-8477 open "/templates/single_work_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:18:19 10.71.57.0 tmp110870742-8477 close "/templates/single_work_template.php" bytes read 0 written 15002
+Jan 17 14:18:19 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|15002|0|0|0|2f74656d706c617465732f73696e676c655f776f726b5f74656d706c6174652e706870|]
+Jan 17 14:18:20 10.71.57.0 tmp110870742-8477 open "/templates/webs_template.php" flags READ mode 0666
+Jan 17 14:18:20 10.71.57.0 tmp110870742-8477 close "/templates/webs_template.php" bytes read 14701 written 0
+Jan 17 14:18:20 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|14701|0|0|0|2f74656d706c617465732f776562735f74656d706c6174652e706870|]
+Jan 17 14:18:25 10.71.57.0 tmp110870742-8477 open "/templates/webs_template.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Jan 17 14:18:25 10.71.57.0 tmp110870742-8477 close "/templates/webs_template.php" bytes read 0 written 14701
+Jan 17 14:18:25 10.71.57.0 tmp110870742-8477 [10.71.57.0|put|0|14701|0|0|0|2f74656d706c617465732f776562735f74656d706c6174652e706870|]
+Jan 17 14:18:27 10.71.57.0 tmp110870742-8477 open "/templates/designs_template.php" flags READ mode 0666
+Jan 17 14:18:27 10.71.57.0 tmp110870742-8477 close "/templates/designs_template.php" bytes read 15005 written 0
+Jan 17 14:18:27 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|15005|0|0|0|2f74656d706c617465732f64657369676e735f74656d706c6174652e706870|]
+Jan 17 14:18:30 10.71.57.0 tmp110870742-8477 open "/templates/admin_panel_template.php" flags READ mode 0666
+Jan 17 14:18:30 10.71.57.0 tmp110870742-8477 close "/templates/admin_panel_template.php" bytes read 9365 written 0
+Jan 17 14:18:30 10.71.57.0 tmp110870742-8477 [10.71.57.0|get|0|9365|0|0|0|2f74656d706c617465732f61646d696e5f70616e656c5f74656d706c6174652e706870|]
+Jan 17 14:22:03 10.71.57.0 tmp110870742-7415 Connection from 10.71.57.0 port 45756 on 82.165.88.240 port 22
+Jan 17 14:22:03 10.71.57.0 tmp110870742-7415 Accepted password for tmp110870742-7415 from 10.71.57.0 port 45756 ssh2
+Jan 17 14:22:03 10.71.57.0 tmp110870742-7415 Starting session: subsystem 'sftp' for tmp110870742-7415 from 10.71.57.0 port 45756 id 0
+Jan 17 14:22:03 10.71.57.0 tmp110870742-7415 session opened for local user tmp110870742-7415 from [10.71.57.0]
+Jan 17 14:22:44 10.71.57.0 tmp110870742-6556 Connection from 10.71.57.0 port 45878 on 82.165.88.240 port 22
+Jan 17 14:22:44 10.71.57.0 tmp110870742-6556 Accepted password for tmp110870742-6556 from 10.71.57.0 port 45878 ssh2
+Jan 17 14:23:28 10.71.57.0 tmp110870742-7415 open "/.zip" flags READ mode 0666
+Jan 17 14:23:28 10.71.57.0 tmp110870742-7415 close "/.zip" bytes read 1281667 written 0
+Jan 17 14:23:28 10.71.57.0 tmp110870742-7415 [10.71.57.0|get|0|1281667|0|0|0|2f2e7a6970|]

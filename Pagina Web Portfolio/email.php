@@ -6,8 +6,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $email_from = $_POST['email'];
     $email_to = 'aledoble29@gmail.com';
     $text = $_POST['message'];
-    $headers = "From:" . $email_from;
-    
     
     // SANITIZING INPUTS
     $name = filter_var($name, FILTER_SANITIZE_STRING);
@@ -24,7 +22,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     // DATABASE CONNECTION
     
-    print_r(mail($email_to, $name . " " . $surname, $text, $headers));
+    mail($email_to, $name . " " . $surname, $text . " " . $email_from);
+  	header('Location: ./index.html');
+  	
 }
 
 

@@ -1,5 +1,7 @@
 @import url('./main.css');
 @import url('./navbar.css');
+@import url('./fonts.css');
+
 
 
 /* HEADER HEADER */
@@ -30,9 +32,9 @@ header .container-texts-header .titulo1,
 header .container-texts-header .titulo2 {
     color: var(--white);
     font-family: 'Bellefair';
-    font-size: 65px;
+    font-size: 50px;
     font-weight: normal;
-    height: 80px;
+    height: 50px;
 }
 header .container-texts-header .about-me-header {
     font-family: 'Open Sans';
@@ -92,6 +94,7 @@ header .container-texts-header .tel,
 header .container-texts-header .email {
     color: var(--blue-medium);
     font-family: 'Bellefair';
+  	font-size: 18px;
 }
 header .illustration-alejandro {
     margin: auto;
@@ -152,7 +155,7 @@ header .illustration-alejandro img{
 .typed-cursor {
     font-family: 'Bellefair';
     color: #fff;
-    font-size: 64px;
+    font-size: 42px;
     font-weight: normal;
     display: inline-block !important;
 }
@@ -276,7 +279,7 @@ header .illustration-alejandro img{
 }
 
 .blog button {
-    width: 180px;
+    width: auto;
     height: 60px;
     font-family: 'Bellefair';
     font-size: 24px;
@@ -482,8 +485,8 @@ footer img {
 
   @media only screen and (max-width: 640px){
     .titulo1, .titulo2 {
-        font-size: 5vmax !important;
-        height: 50px !important;
+        font-size: 4vmax !important;
+        height: 20px !important;
     }
     .container-texts-header {
         padding: 20px 0 0 20px !important;
@@ -502,7 +505,7 @@ footer img {
 
   @media only screen and (max-width: 500px){
     .about-me-header {
-        font-size: 1.6vmax;
+        font-size: 2vmax;
     }
 
     .second-border, .container-contact {
@@ -514,14 +517,20 @@ footer img {
         justify-content: center;
         align-items: center;
     }
+    .typed-cursor {
+    font-size: 32px;
+	}
   }
 
   @media only screen and (max-width: 350px){
     .about-me-header {
-        font-size: 1.5vmax;
+        font-size: 1vmax;
     }
     .skill p {
         font-size: 2vmax;
+    }
+    .tel a, .email a {
+    	font-size: 2vmax;
     }
   }
   

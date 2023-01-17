@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -84,6 +84,10 @@
                     <input type="text" name="keywords" id="keywords">
                 </div>
                 <div class="input-container">
+                    <label for="alt_image">Alt Image</label>
+                    <input type="text" name="alt_image" id="alt_image">
+                </div>
+                <div class="input-container">
                     <label for="img">Image</label>
                     <input type="file" name="img" id="img">
                 </div>
@@ -119,6 +123,10 @@
                 <div class="input-container">
                     <label for="keywords">Keywords</label>
                     <input type="url" name="keywords" id="keywords">
+                </div>
+                <div class="input-container">
+                    <label for="alt_image">Alt Image</label>
+                    <input type="text" name="alt_image" id="alt_image">
                 </div>
                 <div class="input-container">
                     <label for="img">Image</label>

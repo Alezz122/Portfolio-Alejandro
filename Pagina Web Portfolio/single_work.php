@@ -18,6 +18,7 @@ if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_a
         $img = $row[4];
         $url_github = $row[5];
         $url_project = $row[6];
+        $alt_image = $row[8];
     }
     
 }else {

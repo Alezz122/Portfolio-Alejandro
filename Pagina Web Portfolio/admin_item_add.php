@@ -3,7 +3,6 @@ session_start();
 require('./admin/database.php');
 
 if(isset($_SESSION['user'])){
-    echo 'hola';
     if($conn = new mysqli($db_admin['db_localhost'], $db_admin['db_username'], $db_admin['db_pass'], $db_admin['db_name'])){
         if(isset($_POST) && !empty($_POST)){
             if(isset($_REQUEST['upload'])){
@@ -24,8 +23,9 @@ if(isset($_SESSION['user'])){
                     $url_github = $_POST['url_github'];
                     $url_project = $_POST['url_project'];
                     $keywords = $_POST['keywords'];
+                  	$alt_image = $_POST['alt_image'];
 
-                    $sql = "INSERT INTO works (title, descrip, category, img, url_github, url_project, keywords) VALUES('".$title."','".$descrip."','".$category."','".$binariesImg."','".$url_github."','".$url_project."','".$keywords."')";
+                    $sql = "INSERT INTO works (title, descrip, category, img, url_github, url_project, keywords, alt_image) VALUES('".$title."','".$descrip."','".$category."','".$binariesImg."','".$url_github."','".$url_project."','".$keywords."','".$alt_image."')";
                     
                     
                     // ERRORS

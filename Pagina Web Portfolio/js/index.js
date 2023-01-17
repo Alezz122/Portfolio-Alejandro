@@ -3,7 +3,7 @@
 var textAnim = document.getElementById('text-anim');
 
 
-const textsToType = ['I build nice websites', 'I design nice products'];
+const textsToType = ['Desarrollo webs profesionales', 'Diseño productos de calidad'];
 const speed = 30;
 
 var typed = new Typed('#text-anim', {

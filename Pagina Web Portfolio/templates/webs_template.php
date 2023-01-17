@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,25 +18,25 @@
             </a>                         
             <p class="name-nav">Alejandro Doble</p>
             <div class="professions">
-                <p>Web Developer</p>
-                <p>& Designer</p>
+                <p>Desarrollador Web</p>
+                <p>& Diseñador</p>
             </div>
         </div>
         <ul class="links">
             <li>
-                <a href="./index.html#projects">Projects</a>
+                <a href="./index.html#projects">Proyectos</a>
             </li>
             <li>
-                <a href="./index.html#about-me">About Me</a>
+                <a href="./index.html#about-me">Sobre Mi</a>
             </li>
             <li>
-                <a href="./index.html#skills">Skills</a>
+                <a href="./index.html#skills">Habilidades</a>
             </li>
             <li>
                 <a href="./index.html#blog">Blog</a>
             </li>
             <li>
-                <a href="./index.html#contact">Contact</a>
+                <a href="./index.html#contact">Contacto</a>
             </li>
         </ul>
         <ul class="social-media">
@@ -74,7 +74,7 @@
         </ul>
     </nav>
     <header>
-        <h2>My <span>webs</span> works</h2>
+        <h2>Mis trabajos de <span>webs</span></h2>
     </header>
     <div class="container-projects">
         <div class="grid">
